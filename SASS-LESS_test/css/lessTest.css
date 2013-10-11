@@ -1,0 +1,14 @@
+/*CSS*/
+#navbar {
+  width: 80%;
+  height: 23px;
+}
+.content-nav {
+  border-color: #3bbfce;
+  color: #2ca2af;
+}
+.border {
+  padding: 9px;
+  margin: 9px;
+  border-color: #3bbfce;
+}
