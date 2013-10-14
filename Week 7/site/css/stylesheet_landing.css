@@ -27,8 +27,9 @@ html, body {
 	margin-left: 10%;
 }
 
-.imgTxt1 {
-	position: relative; 
+.imgTxt1 a{
+	position: relative;
+	color: #fff; 
 }
 
 #imgHolder2 {
@@ -44,8 +45,9 @@ html, body {
 
 }
 
-.imgTxt2 {
+.imgTxt2 a{
 	position: relative;
+	color: #fff;
 }
 
 #imgHolder3 {
@@ -61,44 +63,11 @@ html, body {
 	margin-left: 70%;
 }
 
-.imgTxt3 {
-	position: absolute;
+.imgTxt3 a{
+	position: relative;
+	color: #fff;
 }
 
-/* =========================================================
- * Mapping
- * ========================================================= */
-#mapping ul{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-#mapping a{
-	position: absolute;
-	width: 250px;
-	height: 100px;
-	text-indent: -1000em;
-}
-
-#mapping a:hover{
-	border: 1px solid #fff;
-}
-
-#mapping .necklace a{
-	top: 300px;
-	left: 275px;
-}
-
-#mapping .earring a{
-	top: 200px;
-	left: 900px;
-}
-
-#mapping .bracelet a{
-	top: 385px;
-	left: 900px;
-}
 
 /* =========================================================
  * Media Query Styles
