@@ -1,0 +1,97 @@
+/* =========================================================
+ * Content container
+ * ========================================================= */
+
+.content-container {
+	padding: 10px 30px;
+	background-color: rgba(255, 255, 255, 0.8);
+	}
+	
+	.content-container p, h1, h2, h3 {
+ 		color: #333333;
+ 		}
+	
+.category-header {
+	text-align: center;
+	font-size: 2em;
+	padding: 50px 0px;
+	letter-spacing: 5px;
+	}
+
+.product-text {
+	padding: 0px 10px;
+	}
+	
+.product-name {
+	font-size: 2em;
+	}
+	
+.product-price {
+	font-size: 1.5em;
+	border-bottom: 1px solid #000000;
+	padding-bottom: 20px;
+	}
+	
+.more-products {
+	padding: 50px 0px;
+	}
+	
+	.more-products img {
+		width: 32%;
+		}
+/* =========================================================
+ * Product Images Gallery
+ * ========================================================= */
+
+.image-gallery {
+  	width:100%;
+  	padding: 0px 10px 0px 0px;
+	}
+	
+.image-gallery .big-image {
+  	width:100%;
+  	height:auto;
+  	padding: 0px;
+  	margin:0 auto;
+  	background-color:white;  
+	}
+	
+.image-gallery .big-image img { 
+  	display:none;
+  	margin:0 auto;
+	}
+	
+/*Selected image display*/
+.image-gallery .big-image img:target { display:block; }
+
+/*on select image display none the default image*/
+.image-gallery .big-image img:target ~ img#default { display:none; }
+
+/*Shoe Default Image in first load*/
+.image-gallery .big-image img#default { display:block; }
+
+.image-gallery ul { 
+	margin-top:15px; 
+	}
+	
+.image-gallery li {
+	float:left;
+  	background-color:rgba(255,255,255,0);
+	width: 25%;
+	text-align: center;
+	}
+  	
+.image-gallery li:hover {
+	opacity: 0.8;
+	}
+
+.img-link {
+	width: 97%;
+	}
+
+/*reset CSS*/
+ul,li { 
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
