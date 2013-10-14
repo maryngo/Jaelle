@@ -63,11 +63,6 @@ html, body {
 	color: #e8e8e8;
 	
 	background-color: #333333;
-
-  	-webkit-background-size: cover;
- 	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
 		
 	min-width: 300px;
 	width: 100%;
