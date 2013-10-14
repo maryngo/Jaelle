@@ -1,4 +1,16 @@
 /* =========================================================
+ * Base styles
+ * ========================================================= */
+ 
+html, body {
+	background: url("../img/bg-pebbles.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	}
+
+/* =========================================================
  * Individual Product Links
  * ========================================================= */
 
