@@ -149,6 +149,7 @@ img {
     background: #fff;
 	background: rgba(255,255,255,0); 
     list-style: none;
+    bottom: 10px;
     position: absolute;
     left: -9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
 	}
