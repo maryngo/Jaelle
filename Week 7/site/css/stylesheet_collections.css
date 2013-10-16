@@ -1,0 +1,47 @@
+/* =========================================================
+ * Base styles
+ * ========================================================= */
+ 
+html, body {
+	background: url("../img/bg-pebbles-blurred.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	}
+
+/* =========================================================
+ * Content container
+ * ========================================================= */
+
+.content-container {
+	padding: 10px 30px;
+	background-color: rgba(255, 255, 255, 0.8);
+	}
+	
+	.content-container p, h1, h2, h3 {
+ 		color: #333333;
+ 		}
+	
+.category-header {
+	text-align: center;
+	font-size: 2em;
+	padding: 50px 0px;
+	letter-spacing: 5px;
+	}
+	
+.product-info {
+	font-size: 1.2em;
+	}
+	
+.bold {
+	font-weight: bold;
+	}
+	
+/* =========================================================
+ * Product Images
+ * ========================================================= */
+
+.product-photo {
+	padding: 0px 5px;
+	}
