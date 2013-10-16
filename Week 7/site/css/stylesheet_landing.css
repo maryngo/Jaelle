@@ -32,6 +32,10 @@ html, body {
 	color: #fff; 
 }
 
+#mobileImg1 {
+	display: none;
+}
+
 #imgHolder2 {
 	background-image: url("../img/p-circle2.svg");
 	background-repeat: no-repeat;
@@ -43,6 +47,10 @@ html, body {
 	margin-top: -35%;
 	margin-left: 65%;
 
+}
+
+#mobileImg2 {
+	display: none;
 }
 
 .imgTxt2 a{
@@ -61,6 +69,10 @@ html, body {
 	padding: 30px 0 0 60px;
 	margin-top: -10%;
 	margin-left: 70%;
+}
+
+#mobileImg3 {
+	display: none;
 }
 
 .imgTxt3 a{
@@ -128,10 +140,16 @@ and (max-width: 480px) {
 		margin-top: 25%;
 		margin-left: 0%;
 	}
+	
+	#mobileImg1 {
+	display: block;
+	width: 75%;
+	}
 
 	.imgTxt1 a{
 		position: relative;
 		color: #fff; 
+		padding: 2em;
 	}
 
 	#imgHolder2 {
@@ -141,10 +159,15 @@ and (max-width: 480px) {
 		height: 275px;
 		background-position: -130px -50px;
 		overflow: visible;
-		padding: 0 0 0 40px;
+		padding: 5em 0 0 40px;
 		margin-top: 0%;
 		margin-left: 0%;
 
+	}
+
+	#mobileImg2 {
+	display: block;
+	width: 75%;
 	}
 
 	.imgTxt2 a{
@@ -156,13 +179,18 @@ and (max-width: 480px) {
 		background-image: url("");
 		background-repeat: no-repeat;
 
-		width: 500px;
-		height: 250px;
+		width: 450px;
+		height: 275px;
 		background-position: -100px -10px;
 		overflow: visible;
 		padding: 0 0 0 40px;
 		margin-top: 0%;
 		margin-left: 0%;
+	}
+	
+	#mobileImg3 {
+		display: block;
+		width: 75%;
 	}
 
 	.imgTxt3 a{
