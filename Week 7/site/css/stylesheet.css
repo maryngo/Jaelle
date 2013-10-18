@@ -149,13 +149,13 @@ img {
     background: #fff;
 	background: rgba(255,255,255,0); 
     list-style: none;
-    bottom: 10px;
+    bottom: 20px;
     position: absolute;
     left: -9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
 	}
 	
 #nav ul li {
-    padding-top: 1px; /* Introducing a padding between the li and the a give the illusion spaced items */
+    padding-top: 10px; /* Introducing a padding between the li and the a give the illusion spaced items */
     float: none;
 	}
 	
@@ -178,7 +178,7 @@ img {
 	}
 	
 #nav li:hover ul li a:hover { /* Here we define the most explicit hover states--what happens when you hover each individual link. */
-    background: #333333;
+    color: #333333;
 	}
 	
 /* =========================================================
