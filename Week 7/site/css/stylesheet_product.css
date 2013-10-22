@@ -136,6 +136,26 @@ ul,li {
 	margin:0;
 	padding:0;
 	}
+
+
+/* =========================================================
+ * Add to Cart Button
+ * ========================================================= */
+
+ .buynow {
+ 	margin-top: 50px;
+ 	padding: 10px;
+ 	border: 2px solid #00A99D;
+ 	width: 30%;
+ 	text-align: center;
+ }
+
+ .buynow:hover {
+ 	background-color: #00A99D;
+ 	color: #fff;
+ }
+
+
 	
 /* =========================================================
  * Media Query Styles
