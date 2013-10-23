@@ -46,7 +46,7 @@ html, body {
 	padding-left: 3%
 }
 
-.mat-header, .process-header{
+.mat-header, .process-header, .socmed-header{
 	margin-top: 100px;
 }
 
@@ -131,13 +131,16 @@ html, body {
 	-moz-border-radius: 50%;
 }	
 /* =========================================================
- * Product Images
+ * SocMed Icons
  * ========================================================= */
 
-/*.product-photo {
-	padding: 0px 5px;
-	}
+.facebook, .tumblr, .pintrest{
+	width: 70px;
+	height: 70px;
+	/*padding: 0px 5px;*/
+}
+
+.tumblr, .pintrest{
+	margin-left: 2%;
+}
 	
-a.photo-link:hover {
-	opacity: 0.8;
-	}*/
