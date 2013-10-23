@@ -59,6 +59,8 @@ html, body {
 	background-image: url("../img/about/yarn.jpg");
 	float: left;
 	background-position: 5% 200%;
+/*	width: 70px;
+	height: 70px;*/
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
@@ -67,7 +69,7 @@ html, body {
 }
 
 .circular2{
-	margin-left: 7%;
+	/*margin-left: 7%;*/
 	background-image: url("../img/about/beads.jpg");
 	float: left;
 	background-position: 10% 70%;
@@ -79,7 +81,7 @@ html, body {
 }
 
 .circular3{
-	margin-left: 7%;
+	/*margin-left: 7%;*/
 	background-image: url("../img/about/chain.jpg");
 	float: left;
 	background-position: 25% 45%;
@@ -91,7 +93,7 @@ html, body {
 }
 
 .circular4{
-	margin-left: 7%;
+	/*margin-left: 7%;*/
 	background-image: url("../img/about/leatherCord.jpg");
 	float: left;
 	background-position: 60% 15%;
@@ -103,10 +105,21 @@ html, body {
 }	
 
 .circular5{
-	margin-left: 7%;
+	/*margin-left: 7%;*/
 	background-image: url("../img/about/cutter.jpg");
 	float: left;
 	background-position: 83% 83%;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}	
+.circular6{
+	/*margin-left: 7%;*/
+	background-image: url("../img/about/clasps.jpg");
+	float: left;
+	background-position: 10% 60%;
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
