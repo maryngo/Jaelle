@@ -3,12 +3,7 @@
  * ========================================================= */
  
 html, body {
-	background: url("../img/bg-phonebooth.jpg") no-repeat center center fixed; 
-	-webkit-background-size: cover;
- 	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-  	
+	background: url("../img/flowers-bg.png") repeat; 
   	margin: 0;
 	}
 
@@ -51,16 +46,16 @@ html, body {
 }
 
 .circular-container{
+	width: 100%;
+	height: 70px;
 	margin: 0 auto;
 }
 
 .circular1{
-	/*margin-left: 15%;*/
+	margin: 2%;
 	background-image: url("../img/about/yarn.jpg");
 	float: left;
 	background-position: 5% 200%;
-/*	width: 70px;
-	height: 70px;*/
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
@@ -69,7 +64,7 @@ html, body {
 }
 
 .circular2{
-	/*margin-left: 7%;*/
+	margin: 2%;
 	background-image: url("../img/about/beads.jpg");
 	float: left;
 	background-position: 10% 70%;
@@ -81,7 +76,7 @@ html, body {
 }
 
 .circular3{
-	/*margin-left: 7%;*/
+	margin: 2%;
 	background-image: url("../img/about/chain.jpg");
 	float: left;
 	background-position: 25% 45%;
@@ -93,7 +88,7 @@ html, body {
 }
 
 .circular4{
-	/*margin-left: 7%;*/
+	margin: 2%;
 	background-image: url("../img/about/leatherCord.jpg");
 	float: left;
 	background-position: 60% 15%;
@@ -105,7 +100,7 @@ html, body {
 }	
 
 .circular5{
-	/*margin-left: 7%;*/
+	margin: 2%;
 	background-image: url("../img/about/cutter.jpg");
 	float: left;
 	background-position: 83% 83%;
@@ -116,7 +111,7 @@ html, body {
 	-moz-border-radius: 50%;
 }	
 .circular6{
-	/*margin-left: 7%;*/
+	margin: 2%;
 	background-image: url("../img/about/clasps.jpg");
 	float: left;
 	background-position: 10% 60%;
