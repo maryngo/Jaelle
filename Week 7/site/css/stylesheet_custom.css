@@ -37,7 +37,7 @@ html, body {
 	}
 	
 /* =========================================================
- * DELETE THIS AFTER
+ * Customs Sections CSS
  * ========================================================= */
 
  #who, #what, #why, #contact-info {
@@ -58,5 +58,177 @@ html, body {
 }
 
 .step-title {
+	color: #00A99D;
 	font-size: 1.5em;
+	}
+
+/* =========================================================
+ * Customs Sections CSS
+ * ========================================================= */
+ .who {
+ 	text-align: center;
+ 	font-size: 2em;
+ 	font-style: italic;
+ }
+
+
+
+/* =========================================================
+ * Tell Me a Story CSS
+ * ========================================================= */
+.story {
+	margin-top: 15px;
+	
+}
+
+.story-desc {
+	text-align: right;
+	margin-right: 15px;
+}
+
+
+
+/* =========================================================
+ * Contact Form Elements CSS
+ * ========================================================= */
+.face {
+	width: 65%;
+	margin-left: 50px;
+}
+
+input[type=text],
+input[type=email],
+input[type=search],
+input[type=tel],
+select,
+textarea {
+	font-family: "Perspective Sans", sans-serif; 
+	width: 100%;
+	margin-bottom: 15px;
+	padding: .6em .6em .5em .6em;
+	display: inline-block;
+	border: 1px solid #ccc;
+	font-size: 1em;
+	box-shadow: inset 0 1px 3px #ddd;
+	border-radius: 4px;
+	-webkit-transition: .3s linear border;
+	-moz-transition: .3s linear border;
+	-ms-transition: .3s linear border;
+	-o-transition: .3s linear border;
+	transition: .3s linear border;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* When an input box is in focus, highlight it in teal */
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+select:focus,
+textarea:focus {
+	outline:0;
+	outline:thin dotted \9;
+	border-color:#00A99D;
+}
+
+input[type=file]:focus
+input[type=radio]:focus,
+input[type=checkbox]:focus {
+	outline: thin dotted #333;
+	outline: 1px auto #00A99D;
+}
+
+button {
+	font-family: "Perspective Sans", sans-serif;
+	font-size: 100%;
+ 	padding: 10px;
+ 	border: 2px solid #00A99D;
+ 	width: 30%;
+ 	text-align: center;
+}
+
+button:hover {
+ 	background-color: #00A99D;
+ 	color: #fff;
+}
+
+
+
+
+
+/* =========================================================
+ * Choosing type of Jewelry CSS
+ * ========================================================= */
+.radio > input[type=radio]{
+	display:none;
+}
+
+input[type=radio] + img{
+	cursor:pointer;
+	border:5px solid transparent;
+	transition: all 0.5s;
+	opacity: 0.5;
+}
+
+input[type=radio]:checked + img{
+	border:5px solid #00A99D;
+	opacity: 1;
+}
+
+input[type=radio]:hover + img {
+	border: 5px solid #00A99D;
+	opacity: 1;
+}
+
+
+
+.type-list {
+  	width:100%;
+  	padding: 0px 10px 0px 0px;
+	}
+
+.type-list ul { 
+	margin-top:15px; 
+	}
+	
+.type-list li {
+	float:left;
+	width: 25%;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: center;
+	
+	}
+
+/*.type-list li label {
+	transition: all 0.5s;
+	opacity: 0.5;
+
+}
+  	
+.type-list li label:hover, li label:checked {
+	opacity: 1;
+	}
+
+.img-link:hover{
+	border: 5px solid #00A99D;
+}*/
+
+/*.img-link {
+	width: 100%;
+	}*/
+
+/*.img-link img:active {
+	display: block;
+	border: 2px solid #00A99D;
+}*/
+
+
+/*reset CSS*/
+ul,li { 
+	list-style:none;
+	margin:0;
+	padding:0;
 	}
