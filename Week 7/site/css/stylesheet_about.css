@@ -50,6 +50,10 @@ html, body {
 	margin-top: 100px;
 }
 
+.mat-content{
+	padding-top: 2%;
+}
+
 .circular-container{
 	width: 62.5%;
 	height: 70px;
