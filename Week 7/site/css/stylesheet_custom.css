@@ -229,6 +229,5 @@ input[type=radio]:hover + img {
 /*reset CSS*/
 ul,li { 
 	list-style:none;
-	margin:0;
-	padding:0;
+
 	}
