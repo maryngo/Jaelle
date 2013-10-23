@@ -33,14 +33,86 @@ html, body {
 	}
 	
 .about-content {
-	font-size: 1.2em;
-	padding-bottom: 30px;
-	}
+/*	font-size: 1.2em;
+*/	padding-bottom: 30px;
+}
 	
 .bold {
 	font-weight: bold;
-	}
-	
+}
+
+.mat-header{
+	margin-top: 100px;
+}
+
+.who-img{
+	width: 100%;
+	height: 100%;
+}
+
+.circular-container{
+	margin: 0 auto;
+}
+
+.circular1{
+	/*margin-left: 15%;*/
+	background-image: url("../img/about/yarn.jpg");
+	float: left;
+	background-position: 5% 200%;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.circular2{
+	margin-left: 7%;
+	background-image: url("../img/about/beads.jpg");
+	float: left;
+	background-position: 10% 70%;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.circular3{
+	margin-left: 7%;
+	background-image: url("../img/about/chain.jpg");
+	float: left;
+	background-position: 25% 45%;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.circular4{
+	margin-left: 7%;
+	background-image: url("../img/about/leatherCord.jpg");
+	float: left;
+	background-position: 60% 15%;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}	
+
+.circular5{
+	margin-left: 7%;
+	background-image: url("../img/about/cutter.jpg");
+	float: left;
+	background-position: 83% 83%;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}	
 /* =========================================================
  * Product Images
  * ========================================================= */
