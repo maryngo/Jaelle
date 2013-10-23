@@ -58,8 +58,19 @@ html, body {
 }
 
 .step-title {
+	color: #00A99D;
 	font-size: 1.5em;
 	}
+
+.story {
+	margin-top: 15px;
+	
+}
+
+.story-desc {
+	text-align: right;
+	margin-right: 15px;
+}
 
 
 
@@ -75,7 +86,7 @@ input[type=tel],
 select,
 textarea {
 	font-family: "Perspective Sans", sans-serif; 
-	width: 90%;
+	width: 100%;
 	margin-bottom: 15px;
 	padding: .6em .6em .5em .6em;
 	display: inline-block;
@@ -125,3 +136,68 @@ button:hover {
  	background-color: #00A99D;
  	color: #fff;
 }
+
+
+
+
+
+/*RADIO BUTTON CSS*/
+.fb > input[type=radio]{
+  display:none;
+}
+input[type=radio] + img{
+  cursor:pointer;
+  border:2px solid transparent;
+}
+input[type=radio]:checked + img{
+  border:2px solid #f00;
+}
+
+
+
+.type-list {
+  	width:100%;
+  	padding: 0px 10px 0px 0px;
+	}
+
+.type-list ul { 
+	margin-top:15px; 
+	}
+	
+.type-list li {
+	float:left;
+	width: 10%;
+	text-align: center;
+	
+	}
+
+.type-list li a {
+	transition: all 0.5s;
+	opacity: 0.5;
+
+}
+  	
+.type-list li a:hover {
+	opacity: 1;
+	}
+
+.img-link:hover{
+	border: 5px solid #00A99D;
+}
+
+/*.img-link {
+	width: 100%;
+	}*/
+
+/*.img-link img:active {
+	display: block;
+	border: 2px solid #00A99D;
+}*/
+
+
+/*reset CSS*/
+ul,li { 
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
