@@ -37,7 +37,7 @@ html, body {
 	}
 	
 /* =========================================================
- * DELETE THIS AFTER
+ * Customs Sections CSS
  * ========================================================= */
 
  #who, #what, #why, #contact-info {
@@ -60,3 +60,68 @@ html, body {
 .step-title {
 	font-size: 1.5em;
 	}
+
+
+
+/* =========================================================
+ * Form Elements CSS
+ * ========================================================= */
+
+
+input[type=text],
+input[type=email],
+input[type=search],
+input[type=tel],
+select,
+textarea {
+	font-family: "Perspective Sans", sans-serif; 
+	width: 90%;
+	margin-bottom: 15px;
+	padding: .6em .6em .5em .6em;
+	display: inline-block;
+	border: 1px solid #ccc;
+	font-size: 1em;
+	box-shadow: inset 0 1px 3px #ddd;
+	border-radius: 4px;
+	-webkit-transition: .3s linear border;
+	-moz-transition: .3s linear border;
+	-ms-transition: .3s linear border;
+	-o-transition: .3s linear border;
+	transition: .3s linear border;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* When an input box is in focus, highlight it in teal */
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+select:focus,
+textarea:focus {
+	outline:0;
+	outline:thin dotted \9;
+	border-color:#00A99D;
+}
+
+input[type=file]:focus
+input[type=radio]:focus,
+input[type=checkbox]:focus {
+	outline: thin dotted #333;
+	outline: 1px auto #00A99D;
+}
+
+button {
+	font-family: "Perspective Sans", sans-serif;
+	font-size: 100%;
+ 	padding: 10px;
+ 	border: 2px solid #00A99D;
+ 	width: 30%;
+ 	text-align: center;
+}
+
+button:hover {
+ 	background-color: #00A99D;
+ 	color: #fff;
+}
