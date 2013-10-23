@@ -217,11 +217,10 @@ img {
  * ========================================================= */
 
 .breadcrumbs {
-	padding: 10px 0px;
+	padding: 10px;
 	border-top: 1px solid #b8b8b8;
 	border-bottom: 1px solid #b8b8b8;
 	}	
-
 	
 /* =========================================================
  * Media Query Styles

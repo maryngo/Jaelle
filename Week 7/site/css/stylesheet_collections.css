@@ -38,16 +38,6 @@ html, body {
 	}
 	
 /* =========================================================
- * Breadcrumbs
- * ========================================================= */
-
-.breadcrumbs {
-	padding: 10px 0px;
-	border-top: 1px solid #b8b8b8;
-	border-bottom: 1px solid #b8b8b8;
-	}	
-
-/* =========================================================
  * Filters
  * ========================================================= */
 
@@ -138,7 +128,7 @@ a.button {
 		color: #333333;
 		letter-spacing: 3px;
 		margin: 0;
-		padding: 28px 0px;
+		padding: 29px 0px;
 		}
 
 .small {
@@ -155,7 +145,7 @@ a.button {
 /*	background-color: #333333;
 	color: #ffffff;*/
 
-	padding: 4px 3px;
+	padding: 4px 0px;
 
 	font-weight: bold;
 
