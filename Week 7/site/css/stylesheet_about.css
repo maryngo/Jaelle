@@ -36,9 +36,6 @@ html, body {
 	font-weight: bold;
 }
 
-.mat-header{
-	margin-top: 100px;
-}
 
 .who-img{
 	width: 100%;
@@ -47,6 +44,10 @@ html, body {
 
 .who-content{
 	padding-left: 5%
+}
+
+.mat-header, .process-header{
+	margin-top: 100px;
 }
 
 .circular-container{
@@ -118,7 +119,7 @@ html, body {
 	margin: 2%;
 	background-image: url("../img/about/clasps.jpg");
 	float: left;
-	background-position: 10% 60%;
+	background-position: 5% 45%;
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
