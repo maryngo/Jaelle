@@ -45,8 +45,12 @@ html, body {
 	height: 100%;
 }
 
+.who-content{
+	padding-left: 5%
+}
+
 .circular-container{
-	width: 100%;
+	width: 62.5%;
 	height: 70px;
 	margin: 0 auto;
 }
