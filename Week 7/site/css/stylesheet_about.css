@@ -58,9 +58,9 @@ html, body {
 
 .circular1{
 	margin: 2%;
-	background-image: url("../img/about/yarn.jpg");
+	background-image: url("../img/about/leatherCord.jpg");
 	float: left;
-	background-position: 5% 200%;
+	background-position: 60% 15%;
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
@@ -94,9 +94,9 @@ html, body {
 
 .circular4{
 	margin: 2%;
-	background-image: url("../img/about/leatherCord.jpg");
+	background-image: url("../img/about/yarn.jpg");
 	float: left;
-	background-position: 60% 15%;
+	background-position: 5% 200%;
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
