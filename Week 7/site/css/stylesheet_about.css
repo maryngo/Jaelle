@@ -134,13 +134,13 @@ html, body {
  * SocMed Icons
  * ========================================================= */
 
-.facebook, .tumblr, .pintrest{
+.facebook, .tumblr, .pinterest{
 	width: 70px;
 	height: 70px;
 	/*padding: 0px 5px;*/
 }
 
-.tumblr, .pintrest{
+.tumblr, .pinterest{
 	margin-left: 2%;
 }
 	
