@@ -1,0 +1,232 @@
+/* =========================================================
+ * Base styles
+ * ========================================================= */
+ 
+html, body {
+	background: url("../img/bg-pebbles.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	}
+
+/* =========================================================
+ * Individual Product Links
+ * ========================================================= */
+
+#imgHolder1{
+	/*position: absolute;*/
+	background-image: url("../img/p-circle1.svg");
+	background-repeat: no-repeat;
+	width: 450px;
+	height: 275px;
+	background-position: -10px -25px;
+	overflow: visible;
+	padding: 25px 0 0 40px;
+	margin-top: 25%;
+	margin-left: 10%;
+}
+
+.imgTxt1 a{
+	position: relative;
+	color: #fff; 
+}
+
+#mobileImg1 {
+	display: none;
+}
+
+#imgHolder2 {
+	background-image: url("../img/p-circle2.svg");
+	background-repeat: no-repeat;
+	width: 450px;
+	height: 275px;
+	background-position: -130px -50px;
+	overflow: visible;
+	padding: 25px 0 0 100px;
+	margin-top: -35%;
+	margin-left: 65%;
+
+}
+
+#mobileImg2 {
+	display: none;
+}
+
+.imgTxt2 a{
+	position: relative;
+	color: #fff;
+}
+
+#imgHolder3 {
+	background-image: url("../img/p-circle3.svg");
+	background-repeat: no-repeat;
+
+	width: 500px;
+	height: 250px;
+	background-position: -100px -10px;
+	overflow: visible;
+	padding: 30px 0 0 60px;
+	margin-top: -10%;
+	margin-left: 70%;
+}
+
+#mobileImg3 {
+	display: none;
+}
+
+.imgTxt3 a{
+	position: relative;
+	color: #fff;
+}
+
+
+/* =========================================================
+ * Media Query Styles
+ * ========================================================= */
+
+/* Smartphones */
+@media only screen
+and (max-width: 480px) {
+	.column, .columns {
+		float: none;
+	}
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+		width: 100%;
+	}	
+		
+	.container { 
+		width: 100% !important;
+		padding: 0px 0px !important;
+		margin: 0px !important;
+		}
+		
+	h1, h2, h3 {
+		line-height: 1.2em;
+		}
+		
+	.logo-container {
+		text-align: center;
+		padding: 10px;
+		}	
+	
+		.logo-container img{
+			width: 30%;
+			}
+	
+	#tagline {
+		display: none;
+	}
+	
+	.search-cart {
+		text-align: center;
+		}
+	
+	.icon img{
+		width: 10%;
+		padding: 10px 0px;
+		margin: 0px 30px;
+		}
+
+	#imgHolder1{
+		/*position: absolute;*/
+		background-image: url("");
+		background-repeat: no-repeat;
+		width: 450px;
+		height: 275px;
+		background-position: -10px -25px;
+		overflow: visible;
+		padding: 25px 0 0 40px;
+		margin-top: 25%;
+		margin-left: 0%;
+	}
+	
+	#mobileImg1 {
+	display: block;
+	width: 75%;
+	}
+
+	.imgTxt1 a{
+		position: relative;
+		color: #fff; 
+		padding: 2em;
+	}
+
+	#imgHolder2 {
+		background-image: url("");
+		background-repeat: no-repeat;
+		width: 450px;
+		height: 275px;
+		background-position: -130px -50px;
+		overflow: visible;
+		padding: 5em 0 0 40px;
+		margin-top: 0%;
+		margin-left: 0%;
+
+	}
+
+	#mobileImg2 {
+	display: block;
+	width: 75%;
+	}
+
+	.imgTxt2 a{
+		position: relative;
+		color: #fff;
+	}
+
+	#imgHolder3 {
+		background-image: url("");
+		background-repeat: no-repeat;
+
+		width: 450px;
+		height: 275px;
+		background-position: -100px -10px;
+		overflow: visible;
+		padding: 0 0 0 40px;
+		margin-top: 0%;
+		margin-left: 0%;
+	}
+	
+	#mobileImg3 {
+		display: block;
+		width: 75%;
+	}
+
+	.imgTxt3 a{
+		position: relative;
+		color: #fff;
+	}
+	
+}
+
+/* Header Fix for 700px */
+@media only screen
+and (max-width: 780px) {
+		.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+		width: 100%;
+		}	
+		
+		.logo-container {
+		text-align: center;
+		padding: 10px;
+		}	
+	
+		.logo-container img{
+			width: 30%;
+			}
+		
+		.icon {
+		width: 50%;
+		padding: 10px 0px;
+		}
+		
+		.product-text {
+			padding: 60px 10px;
+			}
+			
+		html, body {
+			background: url("") no-repeat center center fixed;
+			background-color: #333;
+  		}
+}
