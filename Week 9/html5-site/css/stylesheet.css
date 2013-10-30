@@ -109,7 +109,7 @@ a:hover {
 
  header {
     width: 200px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0);
     float: left;
 
     position: fixed;
@@ -142,9 +142,10 @@ a:hover {
     float: left;
     width: 100%;
     min-width: 500px;
-    background-color: red;
 
     padding-left: 200px;
+
+    background-color: ;
  }
 
  /* =========================================================
@@ -153,9 +154,11 @@ a:hover {
 
  nav {
     padding: 10px;
-    margin: 10px;
 
-    background-color: blue;
+    background-color: #00A99D;
+
+    position: fixed;
+    z-index: 100;
  }
 
 /* =========================================================
@@ -164,13 +167,7 @@ a:hover {
 
  .content {
     padding: 10px;
-    margin: 10px;
-
-    background-color: green;
- }
-
- #circle1 {
-    padding-top: 25%;
+    margin: 0 20px;
  }
 
 /* =========================================================
