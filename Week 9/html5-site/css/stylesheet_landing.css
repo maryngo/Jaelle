@@ -1,5 +1,74 @@
+body {
+	position: relative;
+}
+
+.full-img {
+	width: 100%;
+	padding: 0px;
+	position: absolute;
+
+	z-index: -199;
+}
+
 .full-bg-img {
 	width: 100%;
-	position: absolute;
-	z-index: -99;
 }
+
+.full-bg-girl {
+	position: absolute;
+	top: 0;
+	right: 20%;
+	height: 100%;
+}
+
+/*
+.circle {
+	position: absolute;
+
+}
+
+.a {
+	top: 25%;
+	right: 7%;
+}
+
+#circle1bg {
+	position: absolute;
+	top: -35px;
+	left: -25px;
+}
+
+.circle h1 {
+	font-size: 2em;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #fff;
+}*/
+
+
+/* All circles */
+.circle h1 {
+	font-size: 2vw;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #fff;
+}
+
+/* Circle A*/
+.a {
+	position: absolute;
+	top: 25%;
+}
+
+/* Circle B*/
+.b {
+	position: absolute;
+	top: 10%;
+}
+
+/* Circle C*/
+.c {
+	position: absolute;
+	top: 50%;
+}
+
+
+

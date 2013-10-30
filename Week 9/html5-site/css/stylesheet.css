@@ -109,7 +109,7 @@ a:hover {
 
  header {
     width: 200px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0);
     float: left;
 
     position: fixed;
@@ -142,9 +142,10 @@ a:hover {
     float: left;
     width: 100%;
     min-width: 500px;
-    background-color: red;
 
     padding-left: 200px;
+
+    background-color: ;
  }
 
  /* =========================================================
@@ -157,8 +158,8 @@ a:hover {
 
  nav {
     padding: 10px;
-    margin: 10px;
 
+<<<<<<< HEAD
     background-color: blue;
 
     position:relative; 
@@ -252,6 +253,13 @@ nav ul ul a:hover {
     color: #333333;
     text-decoration: none;
 }
+=======
+    background-color: #00A99D;
+
+    position: fixed;
+    z-index: 100;
+ }
+>>>>>>> 99945c45dc8a728b8996edccc7e5daf88ab9f944
 
 /* =========================================================
  * Content
@@ -259,13 +267,7 @@ nav ul ul a:hover {
 
  .content {
     padding: 10px;
-    margin: 10px;
-
-    background-color: green;
- }
-
- #circle1 {
-    padding-top: 25%;
+    margin: 0 20px;
  }
 
 /* =========================================================
