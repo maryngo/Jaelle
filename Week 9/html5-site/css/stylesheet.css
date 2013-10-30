@@ -279,3 +279,161 @@ nav ul ul a:hover {
     border-top: 1px solid #b8b8b8;
     border-bottom: 1px solid #b8b8b8;
     }   
+
+
+    @media screen and (min-width: 950px) {
+  .nav-btn {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  .close-btn {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    display: block;
+  }
+
+
+nav ul{
+    text-align: center;
+    /*white-space: nowrap;*/
+  }
+/*nav li {
+    display: block;
+  }
+nav li:last-child {
+    border-right: none;
+  }*/
+nav li a {
+    padding: 0.42857em 0.85714em;
+  }
+}
+
+
+@media screen and (max-width: 1080px) {
+nav {
+    position: relative;
+    top: 0;
+    /*padding-top: 5.25em;*/
+  }
+/*nav:not(:target) {
+    z-index: 1;
+    height: 0;
+  }*/
+/*nav:target .close-btn {
+    display: block;
+  }
+nav .close-btn {
+    position: absolute;
+    top: -3.75em;
+    left: 1.875em;
+  }*/
+/*nav .block {
+    position: relative;
+    padding: 0;
+  }*/
+/*nav li {
+    position: relative;*/
+    /*border-top: 1px solid rgba(255, 255, 255, 0.1);*/
+  /*}*/
+/*nav li:last-child {*/
+    /*border-bottom: 1px solid rgba(255, 255, 255, 0.1);*/
+  /*}*/
+nav li.is-active:after {
+    z-index: 50;
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -0.03125em;
+    margin-top: -0.625em;
+/*    border-top: 0.625em transparent solid;
+    border-bottom: 0.625em transparent solid;
+    border-right: 0.625em white solid;*/
+  }
+nav li a {
+    padding: 0.85714em 2.14286em;
+  }
+
+
+/*nav li { 
+    position:relative; 
+    float:left; 
+    list-style-type:none;
+    margin-right: 10px;
+    width: 18%;
+    text-align: center; 
+}  */
+
+/*nav ul:after { 
+    content:"."; 
+    display:block; 
+    height:0; 
+    clear:both; 
+    visibility:hidden; 
+}  
+
+nav li a { 
+    display:block; 
+    padding: 5px;
+    color:#fff; 
+    text-decoration:none; 
+}  
+
+nav li a:hover{
+    color: #FAC4B8;
+}
+
+nav a:visited{
+    color: #fff;
+}
+
+nav li a:focus { 
+    outline:none; 
+    text-decoration: underline; 
+}  
+
+nav li:first-child a { 
+    border-left:none; 
+}  
+
+nav li.last a { 
+    border-right:none; 
+}  
+
+nav a span { 
+    display:block; 
+    float:right; 
+    margin-left:0px; 
+}  
+
+nav ul ul { 
+    display:none; 
+    width:100%; 
+    position:absolute; 
+    left:0; 
+    background:#6a6a6a; 
+}  
+
+nav ul ul li { 
+    float:none; 
+}  
+
+nav ul ul a { 
+    padding:5px 10px; 
+    border-left:none; 
+    border-right:none; 
+    font-size:14px; 
+}
