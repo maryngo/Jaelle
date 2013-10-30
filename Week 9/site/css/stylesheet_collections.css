@@ -1,0 +1,153 @@
+/* =========================================================
+ * Base styles
+ * ========================================================= */
+ 
+html, body {
+	background: url("../img/flowers-bg.png") repeat; 
+  	
+  	margin: 0;
+	}
+
+/* =========================================================
+ * Content container
+ * ========================================================= */
+
+.content-container {
+	padding: 10px 30px 100px 30px;
+	background-color: rgba(255, 255, 255, 0.8);
+	}
+	
+	.content-container p, h1, h2, h3 {
+ 		color: #333333;
+ 		}
+	
+.category-header {
+	text-align: center;
+	font-size: 2em;
+	padding: 50px 0px;
+	letter-spacing: 5px;
+	}
+	
+.product-info {
+	font-size: 1.2em;
+	padding-bottom: 30px;
+	}
+	
+.bold {
+	font-weight: bold;
+	}
+	
+/* =========================================================
+ * Filters
+ * ========================================================= */
+
+.filter	{
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	}
+
+a.button {
+	color: #333333;
+	border: 2px solid #999999;
+	padding: 3px 10px 1px;
+	margin: 7px 10px 27px;
+	float: left;
+	text-align: center;
+	}
+
+	.button:hover {
+		background-color: #999999;
+		color: #ffffff;
+	}
+	
+/* =========================================================
+ * Product Images
+ * ========================================================= */
+
+.columns {
+	position: relative;
+	}	
+
+.big-box img {
+	width: 96%;
+	float: left;
+	}
+
+.box img {
+	width: 93%;
+	float: left;
+	}
+
+.caption {
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+
+	width: 96%;
+	height: 40%;
+	left: 0;
+	top: 30%;
+
+	padding: 20px;
+	text-align: center;
+
+	opacity: 0;
+	}
+	
+	.caption h3, .caption p {
+		color: #ffffff;
+		}
+
+	.big-box:hover .caption {
+		opacity: 1;
+
+		-webkit-transition: all 300ms ease-out;  
+  		-moz-transition: all 300ms ease-out;  
+  		-o-transition: all 300ms ease-out;  
+  		-ms-transition: all 300ms ease-out;  
+  		transition: all 300ms ease-out;  
+		}
+
+	.box:hover {
+		opacity: 0.8;
+		}
+
+.desc {
+	float: left;
+	width: 93%;
+	background-color: rgba(255,255,255,0.3);
+	text-align: center;
+	}
+
+	.big-desc {
+		float: left;
+		width: 96%;
+		}
+
+	.desc h2 {
+		color: #333333;
+		letter-spacing: 3px;
+		margin: 0;
+		padding: 29px 0px;
+		}
+
+.small {
+	margin-bottom: 14px;
+	}
+
+	.small h3 {
+		margin: 0;
+		padding: 10px 0px;
+		letter-spacing: 2px;
+		}
+
+.price {
+/*	background-color: #333333;
+	color: #ffffff;*/
+
+	padding: 4px 0px;
+
+	font-weight: bold;
+
+/*	border: 1px solid #333333;
+*/	}
