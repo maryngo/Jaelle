@@ -80,7 +80,7 @@
 			<!-- <a class="close-btn" id="nav-close-btn" href="#top"></a> -->
 			<ul>  
                 <li>
-                    <a href="#">Collections</a>
+                    <a href="#">Collections &#x25BC;</a>
                         <ul>    
                             <li><a href="#">Necklaces</a></li>  
                             <li><a href="collections-bracelets.html">Bracelets</a></li>  
@@ -123,7 +123,7 @@
         nav.find("li").each(function() {  
             if ($(this).find("ul").length > 0) {  
                   
-                $("<span>").text(">").appendTo($(this).children(":first"));  
+                $("<span>").text("").appendTo($(this).children(":first"));  
   
                 //show subnav on hover  
                 $(this).mouseenter(function() {  
