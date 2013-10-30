@@ -94,10 +94,14 @@ strong {
     font-weight: 100;
     }
     
-a, a:hover, a:active, a:visited {
+a, a:active, a:visited {
     color: #F48871;
     text-decoration: none;
     }
+
+a:hover {
+    color: #FAC4B8;
+}
 
 /* =========================================================
  * Jaelle Banner
@@ -168,3 +172,13 @@ a, a:hover, a:active, a:visited {
  #circle1 {
     padding-top: 25%;
  }
+
+/* =========================================================
+ * Breadcrumbs (Let me know if I am not supposed to add this yet, baha)
+ * ========================================================= */
+
+.breadcrumbs {
+    padding: 10px;
+    border-top: 1px solid #b8b8b8;
+    border-bottom: 1px solid #b8b8b8;
+    }   
