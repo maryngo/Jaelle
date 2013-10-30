@@ -66,23 +66,44 @@ body {
 	background-color: ;
 }
 
-#circle1bg {
+.circlebga {
 	position: absolute;
-	left: -190px;
-	top: -60px;
+	left: -50px;
+	top: -55px;
+
+	width: 160%;
 }
 
 /* Circle B*/
 .b {
 	position: absolute;
-	top: 10%;
+	top: 20%;
 }
+
+.circlebgb {
+	position: absolute;
+	left: -50px;
+	top: -55px;
+
+	width: 160%;
+}
+
 
 /* Circle C*/
 .c {
 	position: absolute;
 	top: 50%;
 }
+
+.circlebgc {
+	position: absolute;
+	left: -50px;
+	top: -55px;
+
+	width: 160%;
+
+}
+
 
 /* Circles move on hover*/
 .rotate{
