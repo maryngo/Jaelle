@@ -150,13 +150,108 @@ a:hover {
  /* =========================================================
  * Nav Bar
  * ========================================================= */
+/* JS disabled styles */  
+.no-js nav li:hover ul { 
+    display:block; 
+}  
 
  nav {
     padding: 10px;
     margin: 10px;
 
     background-color: blue;
- }
+
+    position:relative; 
+    background-color:#00A99D; 
+    font-family: "Carrosserie Light", sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+
+
+
+    z-index: 200;
+}  
+
+nav ul { 
+    padding:0; 
+    margin:0; 
+}
+
+nav li { 
+    position:relative; 
+    float:left; 
+    list-style-type:none;
+    margin-right: 10px;
+    width: 18%;
+    text-align: center; 
+}  
+
+nav ul:after { 
+    content:"."; 
+    display:block; 
+    height:0; 
+    clear:both; 
+    visibility:hidden; 
+}  
+
+nav li a { 
+    display:block; 
+    padding: 5px;
+    color:#fff; 
+    text-decoration:none; 
+}  
+
+nav li a:hover{
+    color: #FAC4B8;
+}
+
+nav a:visited{
+    color: #fff;
+}
+
+nav li a:focus { 
+    outline:none; 
+    text-decoration: underline; 
+}  
+
+nav li:first-child a { 
+    border-left:none; 
+}  
+
+nav li.last a { 
+    border-right:none; 
+}  
+
+nav a span { 
+    display:block; 
+    float:right; 
+    margin-left:0px; 
+}  
+
+nav ul ul { 
+    display:none; 
+    width:100%; 
+    position:absolute; 
+    left:0; 
+    background:#6a6a6a; 
+}  
+
+nav ul ul li { 
+    float:none; 
+    /*text-align: left;*/
+}  
+
+nav ul ul a { 
+    padding:5px 10px; 
+    border-left:none; 
+    border-right:none; 
+    font-size:14px; 
+}  
+
+nav ul ul a:hover { 
+    color: #333333;
+    text-decoration: none;
+}
 
 /* =========================================================
  * Content
