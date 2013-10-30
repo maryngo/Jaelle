@@ -3,7 +3,7 @@
 <head>
 	<meta charset = "UTF-8">
 	
-	<title>Jaelle</title>
+	<title>Jaelle | Bracelets Collection</title>
 
 	<!-- stylesheets -->
 	<link rel="stylesheet" type="text/css" href="css/grid.css" />
@@ -30,7 +30,7 @@
 
 	<!-- nav bar -->
 	<div class="container-right">
-		<nav>
+<!-- 		<nav>
 			<a href="#" class="primary">Collections</a>
 
 				<a href="#" class="secondary">Necklaces</a>
@@ -42,6 +42,29 @@
 			<a href="#" class="primary">The Blog</a>
 			<a href="#" class="primary">About Jaelle</a>
 			<a href="#" class="primary">Get In Touch</a>
+		</nav> -->
+
+
+		<nav id="topNav">
+			<!-- <a class="nav-btn" id="nav-open-btn" href="#nav"></a> -->
+			<!-- <a class="close-btn" id="nav-close-btn" href="#top"></a> -->
+			<ul>  
+                <li>
+                    <a href="#">Collections &#x25BC;</a>
+                        <ul>    
+                            <li><a href="#">Necklaces</a></li>  
+                            <li><a href="collections-bracelets.html">Bracelets</a></li>  
+                            <li><a href="#">Rings</a></li>  
+                            <li><a href="#">Charms</a></li>  
+                            <li class="last"><a href="#">Custom</a></li>
+                        </ul>                  
+                </li>  
+                <li><a href="custom.html">Make It Yours</a></li>  
+                <li><a href="http://www.jaelledesigns.tumblr.com">The Blog</a></li>  
+                <li><a href="about.html">About Jaelle</a></li>  
+                <li><a href="#">Get In Touch</a></li>  
+            </ul>
+           
 		</nav>
 
 		<!-- content -->
@@ -298,6 +321,32 @@
 	<script type="text/javascript" src="./js/html5shiv.js"></script> 
 	<script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="./js/collections-bracelets.js"></script>
+
+	<script>  
+    (function($){  
+                  
+        //cache nav  
+        var nav = $("#topNav");  
+                  
+        //add indicators and hovers to submenu parents  
+        nav.find("li").each(function() {  
+            if ($(this).find("ul").length > 0) {  
+                  
+                $("<span>").text(" ").appendTo($(this).children(":first"));  
+  
+                //show subnav on hover  
+                $(this).mouseenter(function() {  
+                    $(this).find("ul").stop(true, true).slideDown();  
+                });  
+                          
+                //hide submenus on exit  
+                $(this).mouseleave(function() {  
+                    $(this).find("ul").stop(true, true).slideUp();  
+                });  
+            }  
+        });  
+    })(jQuery);  
+</script>
 
 </body>
 
