@@ -73,7 +73,7 @@ html, body {
 .container-all {
     width: 90%;
     margin: 0px auto;
-    background-color: ;
+    background-color: red;
 }
 
 /* =========================================================
@@ -163,4 +163,8 @@ a, a:hover, a:active, a:visited {
     margin: 10px;
 
     background-color: green;
+ }
+
+ #circle1 {
+    padding-top: 25%;
  }
