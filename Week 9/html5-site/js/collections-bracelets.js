@@ -38,5 +38,13 @@ $(document).ready( function() {
 
 	});
 
+	$(".searchBox").hide();
+
+	$(".search-button").click( function() {
+
+		$(".searchBox").fadeIn(1000);
+
+	});
+
 	
 });
