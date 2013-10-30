@@ -101,84 +101,53 @@ img {
 /* =========================================================
  * Nav Bar
  * ========================================================= */
-	
-#nav-container {
-	padding: 0px 30px;
-	font-family: "Carrosserie Light";
-	letter-spacing: 2px;
-	font-size: 1.1em;
-	position: fixed;
-	z-index: 1;
-	bottom: 0;
-	background-color: #00A99D;
-	}
-	
 #nav {
-    list-style: none;
-    font-weight: 200;
-    float: left;
-    width: 100%;
-    position: relative;
-    z-index: 5;
-    padding: 0px 0px;
+	margin: 0;
+	background-color: #00A99D;
+	text-align: center;
+/*	border-bottom: 1px solid #e8e8e8;
+*/}
+	#nav a {
+		color: #ffffff;
+		font-family: "carrosserie";
+		font-size: 1.2em;
+		letter-spacing: 2px;
 	}
 
 #nav li {
-    float: left;
-    margin-right: 10px;
-    position: relative;
-    width: 23%;
-    text-align: center;
-	}
-	
-#nav a {
-    display: block;
-    padding: 5 px;
-    color: #fff;
-    background: #;
-    text-decoration: none;
-	}
-	
-#nav a:hover {
-    color: #333333;
-    text-decoration: none;
+	display: inline-block;
+
+	width: 15%;
+	position: relative;
+
+	padding: 15px 0 10px;
+
+
+	background-color:;
+}
+
+	#nav li:hover{
+		background-color: #333333;
 	}
 
-/*Drop down*/
 #nav ul {
-    background: #fff;
-	background: rgba(255,255,255,0); 
-    list-style: none;
-    bottom: 20px;
-    position: absolute;
-    left: -9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+	visibility: hidden;
+	display: none;
+
+	position: absolute;
+	float: left;
+
+	background-color: #00A99D;
+	white-space: nowrap;
+}
+	#nav ul li{
+		display: block;
 	}
-	
-#nav ul li {
-    padding-top: 10px; /* Introducing a padding between the li and the a give the illusion spaced items */
-    float: none;
-	}
-	
-#nav ul a {  
-    white-space: nowrap; /* Stop text wrapping and creating multi-line dropdown items */
-	}
-	
-#nav li:hover ul { /* Display the dropdown on hover */
-    left: 0; /* Bring back on-screen when needed */
-    width: 23%;
-	}
-	
-#nav li:hover a { /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
-    background: rgba(255,255,255,0);
-    text-decoration: none;
-	}
-	
-#nav li:hover ul a { /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
-    text-decoration: none;
-	}
-	
-#nav li:hover ul li a:hover { /* Here we define the most explicit hover states--what happens when you hover each individual link. */
-    color: #333333;
+
+	#nav li:hover ul {
+		visibility: visible;
+		background-color: #333333;
+		z-index: 100;
 	}
 	
 /* =========================================================
