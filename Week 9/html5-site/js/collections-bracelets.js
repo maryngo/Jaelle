@@ -77,14 +77,5 @@ $("#price").change( function() {
 	// 	$(".price_50").fadeOut(1000);
 
 	// });
-
-	$(".searchBox").hide();
-
-	$(".search-button").click( function() {
-
-		$(".searchBox").fadeToggle(500);
-
-	});
-
 	
 });

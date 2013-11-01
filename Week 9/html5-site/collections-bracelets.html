@@ -28,30 +28,22 @@
 			<img class="search icon" src="img/search.png" alt="search" />
 		</a>
 		
-		<img class="cart icon" src="img/cart.png" alt="cart" />
+		<a href="#" class="cart-button">
+			<img class="cart icon" src="img/cart.png" alt="cart" />
+		</a>
 
 		<div class="searchBox">
 			<input type="search" name="s" placeholder="Search">
+		</div>
+
+		<div class="cartBox">
+			Halloooo
 		</div>
 
 	</header>
 
 	<!-- nav bar -->
 	<div class="container-right">
-<!-- 		<nav>
-			<a href="#" class="primary">Collections</a>
-
-				<a href="#" class="secondary">Necklaces</a>
-				<a href="#" class="secondary">Bracelets</a>
-				<a href="#" class="secondary">Rings</a>
-				<a href="#" class="secondary">Charms</a>
-
-			<a href="#" class="primary">Make It Yours</a>
-			<a href="#" class="primary">The Blog</a>
-			<a href="#" class="primary">About Jaelle</a>
-			<a href="#" class="primary">Get In Touch</a>
-		</nav> -->
-
 
 		<nav id="topNav">
 			<!-- <a class="nav-btn" id="nav-open-btn" href="#nav"></a> -->
@@ -328,33 +320,8 @@
 	<!-- HTML5shiv.js from http://code.google.com/p/html5shiv/ for compatibility on older IE browsers -->
 	<script type="text/javascript" src="./js/html5shiv.js"></script> 
 	<script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
 	<script type="text/javascript" src="./js/collections-bracelets.js"></script>
-
-	<script>  
-    (function($){  
-                  
-        //cache nav  
-        var nav = $("#topNav");  
-                  
-        //add indicators and hovers to submenu parents  
-        nav.find("li").each(function() {  
-            if ($(this).find("ul").length > 0) {  
-                  
-                $("<span>").text(" ").appendTo($(this).children(":first"));  
-  
-                //show subnav on hover  
-                $(this).mouseenter(function() {  
-                    $(this).find("ul").stop(true, true).slideDown();  
-                });  
-                          
-                //hide submenus on exit  
-                $(this).mouseleave(function() {  
-                    $(this).find("ul").stop(true, true).slideUp();  
-                });  
-            }  
-        });  
-    })(jQuery);  
-</script>
 
 </body>
 
