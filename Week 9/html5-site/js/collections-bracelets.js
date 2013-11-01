@@ -1,5 +1,18 @@
 $(document).ready( function() {
 
+
+// ANDREW STUFF
+
+$("#price").change( function() {  
+
+	var priceSort = $("#price").val();
+	$("h1").html(priceSort);
+
+});
+
+
+// END STUFF
+
 	$(".default-price").click( function() {
 
 		$(".bigmoney").fadeIn(1000);
@@ -42,7 +55,7 @@ $(document).ready( function() {
 
 	$(".search-button").click( function() {
 
-		$(".searchBox").fadeIn(1000);
+		$(".searchBox").fadeToggle(1000);
 
 	});
 
