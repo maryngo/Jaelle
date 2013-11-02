@@ -80,12 +80,12 @@
 			</p>
 
 		<!-- SECTION 1: MESSAGE FROM JESSICA -->
-		<div id="intro-message" class="row">
-			<p>
+		<div id="who" class="row">
+			<!-- <p> -->
 				<h2 class="step-title">A Message from Jessica</h2>
-			</p>
+			<!-- </p> -->
 
-			<p>
+			<p id="intro-message">
 				You can crush me but you can't crush my spirit! This is the worst kind of discrimination: the kind against me! Ah, yes! John Quincy Adding Machine. He struck a chord with the voters when he pledged not to go on a killing.
 			</p>
 		</div>
@@ -94,17 +94,14 @@
 		<!-- SECTION 2: WHO IS IT FOR -->
 		<div id="who" class="row">
 
-			<p>
-				<h2 class="step-title">Who is it for?</h2>
-			</p>
-
+			<h2 class="step-title">Who is it for?</h2>
 
 			<div class="three columns">
 				<label class="radio" for="who1">
 					<input id="who1" type="radio" name="who" value="small" />
 					<img src="./img/customs/placeholder-ghost.svg" />
 					<p class="who">Friend</p>
-				</label>				
+				</label>
 			</div>
 
 			<div class="three columns">
@@ -140,90 +137,47 @@
 				<h2 class="step-title">What are you looking for?</h2>
 			</p>
 
-			<div class="type-list">
-			<ul>
-				<li>
-				  	<label class="radio" for="jwl1">
-						<input id="jwl1" type="radio" name="jewelry-type" value="big" />
-						<img src="./img/customs/placeholder.svg" class="img-link" />
-					</label>
-				</li>
-
-				<li>
-				  	<label class="radio" for="jwl2">
-						<input id="jwl2" type="radio" name="jewelry-type" value="big" />
-						<img src="./img/customs/placeholder.svg" class="img-link" />
-					</label>
-				</li>
-
-				<li>
-				  	<label class="radio" for="jwl3">
-						<input id="jwl3" type="radio" name="jewelry-type" value="big" />
-						<img src="./img/customs/placeholder.svg" class="img-link" />
-					</label>
-				</li>
-			</ul>
-			</div>
-
-			<div class="type-list">
-			<ul>
-				<li>
-				  	<label class="radio" for="jwl4">
-						<input id="jwl4" type="radio" name="jewelry-type" value="big" />
-						<img src="./img/customs/placeholder.svg" class="img-link" />
-					</label>
-				</li>
-
-				<li>
-				  	<label class="radio" for="jwl5">
-						<input id="jwl5" type="radio" name="jewelry-type" value="big" />
-						<img src="./img/customs/placeholder.svg" class="img-link" />
-					</label>
-				</li>
-
-				<li>
-				  	<label class="radio" for="jwl6">
-						<input id="jwl6" type="radio" name="jewelry-type" value="big" />
-						<img src="./img/customs/placeholder.svg" class="img-link" />
-					</label>
-				</li>
-			</ul>
-			</div>
-
-			<!-- <div class="four columns">
-				<p>doop</p>
+			<div class="four columns">
+			  	<label class="radio" for="jwl1">
+					<input id="jwl1" type="radio" name="jewelry-type" value="big" />
+					<img src="./img/customs/placeholder.svg" class="img-link" />
+				</label>
 			</div>
 
 			<div class="four columns">
-				<p>doop1</p>
+			  	<label class="radio" for="jwl2">
+					<input id="jwl2" type="radio" name="jewelry-type" value="big" />
+					<img src="./img/customs/placeholder.svg" class="img-link" />
+				</label>
 			</div>
 
 			<div class="four columns">
-				<p>doop2</p>
+			  	<label class="radio" for="jwl3">
+					<input id="jwl3" type="radio" name="jewelry-type" value="big" />
+					<img src="./img/customs/placeholder.svg" class="img-link" />
+				</label>
 			</div>
 
 			<div class="four columns">
-				<p>doop3</p>
+			  	<label class="radio" for="jwl4">
+					<input id="jwl4" type="radio" name="jewelry-type" value="big" />
+					<img src="./img/customs/placeholder.svg" class="img-link" />
+				</label>
 			</div>
 
-			<div class="one columns">
-
-				<label class="fb" for="fb1">
-					<input id="fb1" type="radio" name="fb" value="big" />
-					<img src="./img/customs/placeholder.svg">
+			<div class="four columns">
+			  	<label class="radio" for="jwl5">
+					<input id="jwl5" type="radio" name="jewelry-type" value="big" />
+					<img src="./img/customs/placeholder.svg" class="img-link" />
 				</label>
+			</div>
 
-				<label class="fb" for="fb2">
-					<input id="fb2" type="radio" name="fb" value="big" />
-					<img src="./img/customs/placeholder.svg">
+			<div class="four columns">
+			  	<label class="radio" for="jwl6">
+					<input id="jwl6" type="radio" name="jewelry-type" value="big" />
+					<img src="./img/customs/placeholder.svg" class="img-link" />
 				</label>
-
-				<label class="fb" for="fb3">
-					<input id="fb3" type="radio" name="fb" value="big" />
-					<img src="./img/customs/placeholder.svg">
-				</label>
-
-			</div> -->
+			</div>
 		</div>
 
 
@@ -282,28 +236,28 @@
 				Sounds like we are really on to something here! Let's keep in touch!
 			</p>
 
-			<form>
-				<div class="six columns">
+			<div class="seven columns">
+				<form>
 					<input type="text" placeholder="Name" required>
 					<input type="email" placeholder="Email" required>
 					<input type="tel" placeholder="Phone Number (Optional)">
 					<input type="text" placeholder="Address (Optional)">
 					<textarea type="text" placeholder="If we've missed anything let us know!"></textarea>
-					<button type="submit">Send</button>
-				</div>
+				</form>
+			</div>
 
-				<div class="six columns">
-					<div class="face">
+			<div class="five columns">
+				<div class="face">
 					<img src="./img/customs/placeholder-head.svg" class="happyface"/>
-					</div>
 				</div>
+			</div>
 
-			    
-			</form>
-
-			<!-- <div >
-				<p>hi</p>
-			</div> -->
+			<div class="row">
+			<p id="sendButton">
+				<button type="submit">Send</button>
+			</p>
+			</div>
+				    
 		</div>
 
 			</section>

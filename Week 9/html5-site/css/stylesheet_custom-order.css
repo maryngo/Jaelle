@@ -41,9 +41,13 @@ html, body {
  * Customs Sections CSS
  * ========================================================= */
 
+ #who img, #what img, #why img, #contact-info img {
+	width: 100%;
+ }
+
  #who, #what, #why, #contact-info {
 	font-size: 1.2em;
-	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -52,16 +56,21 @@ html, body {
 #intro-message {
 	/*font-size: 1.3em;*/
 	margin: auto;
-	width: 50%;
+	width: 70%;
 	/*border: 1px solid red;*/
 	text-align: center;
-	margin-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 50px;
 }
 
 .step-title {
 	color: #00A99D;
 	font-size: 1.5em;
+	text-align: center;
+	padding-bottom: 20px;
 	}
+
+
 
 /* =========================================================
  * Customs Sections CSS
@@ -79,7 +88,6 @@ html, body {
  * ========================================================= */
 .story {
 	margin-top: 15px;
-	
 }
 
 .story-desc {
@@ -93,8 +101,8 @@ html, body {
  * Contact Form Elements CSS
  * ========================================================= */
 .face {
-	width: 5%;
-	margin-left: 50px;
+	width: 90%;
+	/*margin-left: 50px;*/
 }
 
 input[type=text],
@@ -141,14 +149,25 @@ input[type=checkbox]:focus {
 	outline: 1px auto #00A99D;
 }
 
+
+#sendButton {
+	margin: auto;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+
 button {
 	font-family: "Perspective Sans", sans-serif;
 	font-size: 100%;
  	padding: 10px;
  	border: 2px solid #00A99D;
- 	width: 30%;
+ 	width: 20%;
  	text-align: center;
+ 	margin: auto;
 }
+
 
 button:hover {
  	background-color: #00A99D;
@@ -157,10 +176,8 @@ button:hover {
 
 
 
-
-
 /* =========================================================
- * Choosing type of Jewelry CSS
+ * Who the Order is for + Choosing type of Jewelry CSS
  * ========================================================= */
 .radio > input[type=radio]{
 	display:none;
@@ -182,49 +199,6 @@ input[type=radio]:hover + img {
 	border: 5px solid #00A99D;
 	opacity: 1;
 }
-
-
-
-.type-list {
-  	width:100%;
-  	padding: 0px 10px 0px 0px;
-	}
-
-.type-list ul { 
-	margin-top:15px; 
-	}
-	
-.type-list li {
-	float:left;
-	width: 25%;
-	margin-left: 15px;
-	margin-right: 15px;
-	text-align: center;
-	
-	}
-
-/*.type-list li label {
-	transition: all 0.5s;
-	opacity: 0.5;
-
-}
-  	
-.type-list li label:hover, li label:checked {
-	opacity: 1;
-	}
-
-.img-link:hover{
-	border: 5px solid #00A99D;
-}*/
-
-/*.img-link {
-	width: 100%;
-	}*/
-
-/*.img-link img:active {
-	display: block;
-	border: 2px solid #00A99D;
-}*/
 
 
 /*reset CSS*/
