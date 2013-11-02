@@ -275,8 +275,10 @@ nav ul ul a:hover {
 
 .breadcrumbs {
     padding: 10px;
-    border-top: 1px solid #b8b8b8;
-    border-bottom: 1px solid #b8b8b8;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+/*    border-top: 1px solid #b8b8b8;
+    border-bottom: 1px solid #b8b8b8;*/
     }   
 
 
