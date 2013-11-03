@@ -45,7 +45,7 @@ html, body {
 	width: 100%;
  }
 
- #who, #what, #why, #contact-info {
+ #message, #who, #what, #why, #contact-info {
 	font-size: 1.2em;
 	border-bottom: 1px solid #aaa;
 	padding-top: 50px;
@@ -75,9 +75,9 @@ html, body {
 /* =========================================================
  * Customs Sections CSS
  * ========================================================= */
- .who {
+ .who, .jewelry {
  	text-align: center;
- 	font-size: 2em;
+ 	font-size: 1.5em;
  	font-style: italic;
  }
 
