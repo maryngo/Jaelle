@@ -156,7 +156,199 @@ a:hover {
     display:block; 
 }  
 
- nav {
+nav {
+    padding: 10px;
+    margin: 10px;
+    padding-bottom: 12.5px;
+    background-color: blue;
+    overflow: hidden;
+    position:relative; 
+    background-color:#00A99D; 
+    font-family: "Carrosserie Light", sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    z-index: 200;
+}  
+
+.block {
+  position: relative;
+  margin: 0 auto;
+  padding: 1.5em 1.25em;
+  max-width: 60em;
+}
+
+.close-btn {
+  display: block;
+  width: 2.625em;
+  height: 2.25em;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: #00A99D url("../img/close-btn.svg") left center no-repeat;
+  background-size: 1.875em 1.875em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 100%;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.no-svg .close-btn {
+  background-image: url("../img/close-btn.png");
+}
+.close-btn:focus, .close-btn:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.nav-btn {
+  display: block;
+  width: 2.625em;
+  height: 2.25em;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: #00A99D url("../img/nav-icon.svg") left center no-repeat;
+  background-size: 1.875em 1.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 100%;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.no-svg .nav-btn {
+  background-image: url("../img/nav-icon.png");
+}
+.nav-btn:hover, .nav-btn:focus {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+#outer-wrap {
+  position: relative;
+  /*overflow: hidden;*/
+  width: 100%;
+}
+
+#inner-wrap {
+  position: relative;
+  width: 100%;
+}
+
+#nav {
+  z-index: 200;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  color: #fff;
+}
+#nav .close-btn {
+  display: none;
+}
+
+#nav .block {
+  z-index: 2;
+  position: relative;
+  padding: 0.75em 1.25em;
+}
+
+#nav ul {
+  *zoom: 1;
+  /*display: block;*/
+  padding: 0;
+  margin: 0;
+}
+/*#nav ul:before, #nav ul:after {
+  content: "";
+  display: table;
+}*/
+#nav ul:after {
+  clear: both;
+  display: block;
+  height: 0;
+  content: "";
+  visibility: hidden;
+}
+
+#nav li {
+  /*display: block;*/
+  position: relative;
+  list-style-type: none;
+  margin-right: 10px;
+  width: 18%;
+  text-align: center;
+}
+
+#nav li a {
+  display: block;
+  color: #fff;
+/*  font-size: 0.875em;
+  line-height: 1.28571em;
+  font-weight: bold;
+  outline: none;*/
+}
+#nav li a:focus, #nav li a:hover {
+  color: #FAC4B8;
+  outline: none;
+}
+
+#nav li.is-active a {
+  color: #fff;
+}
+
+#top {
+  z-index: 100;
+  position: relative;
+  color: #fff;
+}
+
+#top .nav-btn {
+  position: absolute;
+  top: 1.5em;
+  left: 1.875em;
+}
+
+nav li:first-child a { 
+    border-left:none; 
+}  
+
+nav li.last a { 
+    border-right:none; 
+}  
+
+nav a span { 
+    display:block; 
+    float:right; 
+    margin-left:0px;
+}
+
+nav ul ul { 
+    display:none; 
+    /*width:100%; */
+    position:absolute; 
+    left:0; 
+    background:#6a6a6a; 
+}  
+
+#nav ul ul li { 
+    float:none; 
+    text-align: center;
+    margin-right: 7px;
+}  
+
+#nav ul ul a { 
+    padding:5px 10px; 
+    border-left:none; 
+    border-right:none; 
+    font-size:14px; 
+}  
+
+#nav ul ul a:hover { 
+    color: #333333;
+    text-decoration: none;
+}
+/* nav {
     padding: 10px;
 
 <<<<<<< HEAD
@@ -239,7 +431,7 @@ nav ul ul {
 
 nav ul ul li { 
     float:none; 
-    /*text-align: left;*/
+    /*text-align: left;
 }  
 
 nav ul ul a { 
@@ -259,7 +451,7 @@ nav ul ul a:hover {
     position: fixed;
     z-index: 100;
  }
->>>>>>> 99945c45dc8a728b8996edccc7e5daf88ab9f944
+>>>>>>> 99945c45dc8a728b8996edccc7e5daf88ab9f944*/*/
 
 /* =========================================================
  * Content
@@ -282,8 +474,9 @@ nav ul ul a:hover {
     }   
 
 
-    @media screen and (min-width: 950px) {
-  .nav-btn {
+@media screen and (min-width: 995.9px) {
+
+#top .nav-btn {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -294,7 +487,7 @@ nav ul ul a:hover {
     width: 1px;
   }
 
-  .close-btn {
+  #nav .close-btn {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -303,56 +496,68 @@ nav ul ul a:hover {
     padding: 0;
     position: absolute;
     width: 1px;
-    display: block;
   }
 
-
-nav ul{
+  #nav ul {
     text-align: center;
-    /*white-space: nowrap;*/
+    white-space: nowrap;
   }
-/*nav li {
-    display: block;
+  #nav li {
+    display: inline-block;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
   }
-nav li:last-child {
+
+  #nav ul ul li{
     border-right: none;
-  }*/
-nav li a {
+  }
+
+  #nav li:last-child {
+    border-right: none;
+  }
+  #nav li a {
     padding: 0.42857em 0.85714em;
   }
 }
 
 
-@media screen and (max-width: 1080px) {
-nav {
-    position: relative;
+
+
+
+/*@media screen and (max-width: 45em) {
+*/  
+@media screen and (max-width: 995px) {
+
+#nav {
+    position: absolute;
     top: 0;
-    /*padding-top: 5.25em;*/
+    padding-top: 5.25em;
   }
-/*nav:not(:target) {
+  #nav:not(:target) {
     z-index: 1;
     height: 0;
-  }*/
-/*nav:target .close-btn {
+  }
+  #nav:target .close-btn {
     display: block;
   }
-nav .close-btn {
+  #nav .close-btn {
     position: absolute;
     top: -3.75em;
     left: 1.875em;
-  }*/
-/*nav .block {
+  }
+  #nav .block {
     position: relative;
     padding: 0;
-  }*/
-/*nav li {
-    position: relative;*/
-    /*border-top: 1px solid rgba(255, 255, 255, 0.1);*/
-  /*}*/
-/*nav li:last-child {*/
-    /*border-bottom: 1px solid rgba(255, 255, 255, 0.1);*/
-  /*}*/
-nav li.is-active:after {
+  }
+  #nav li {
+    position: relative;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    width: 45%;
+
+  }
+  #nav li:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  #nav li.is-active:after {
     z-index: 50;
     display: block;
     content: "";
@@ -360,13 +565,14 @@ nav li.is-active:after {
     top: 50%;
     right: -0.03125em;
     margin-top: -0.625em;
-/*    border-top: 0.625em transparent solid;
+    border-top: 0.625em transparent solid;
     border-bottom: 0.625em transparent solid;
-    border-right: 0.625em white solid;*/
+    border-right: 0.625em white solid;
   }
-nav li a {
+  #nav li a {
     padding: 0.85714em 2.14286em;
   }
+}
 
 
 /*nav li { 
