@@ -129,10 +129,16 @@ a:hover {
     border-bottom: 1px solid #ffffff;
  }
 
- header img.search, header img.cart {
+ header img.icon {
     width: 25px;
     margin: 20px 25px;
+    margin-bottom: 0px;
  }
+
+/* header img.search, header img.cart {
+    width: 25px;
+    margin: 20px 25px;
+ }*/
 
  /* =========================================================
  * Container Right
