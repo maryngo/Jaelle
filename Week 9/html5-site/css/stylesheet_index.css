@@ -1,0 +1,71 @@
+/* =========================================================
+ * Parallax
+ * ========================================================= */
+
+.bg-container {
+    margin: 0;
+    padding: 200px 200px;
+ }
+
+.js-bg-1 {
+    background: transparent url("../img/pebbles-bg.png") center 0 no-repeat;
+}
+
+.js-bg-2 {
+    background: transparent url("../img/pebbles-girl.png") center 0 no-repeat;
+}
+
+
+/* =========================================================
+ * Content Title
+ * ========================================================= */
+
+.content-title {
+/*    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;*/
+
+    background-image: url(../img/pebbles-bg.png);
+    background-size: auto;
+    overflow: hidden;
+    height: 400px;
+
+    position: relative;
+}
+
+.content-title img {
+    height: 100%;
+    position: absolute;
+    right: 25%;
+}
+
+/* =========================================================
+ * Content
+ * ========================================================= */
+
+ .content {
+    margin: 0px 10px;
+ }
+
+ .body-content p {
+    padding: 10px;
+ }
+
+
+
+/* =========================================================
+ * Breadcrumbs (Let me know if I am not supposed to add this yet, baha)
+ * ========================================================= */
+
+.breadcrumbs {
+    padding: 10px;
+    border-top: 1px solid #b8b8b8;
+    border-bottom: 1px solid #b8b8b8;
+    }   
+
+/* =========================================================
+ * Media Queries
+ * ========================================================= */
+
+@media screen and (min-width: 950px) {
+
+@media screen and (max-width: 1080px) {

@@ -25,7 +25,7 @@ $(document).ready( function() {
 	});  
 
 
-// Code for Pop-up search
+	// Code for Pop-up search
 	$(".searchBox").hide();
 
 	$(".search-button").click( function() {
@@ -35,7 +35,7 @@ $(document).ready( function() {
 
 	});
 
-// Code for Pop-up cart
+	// Code for Pop-up cart
 	$(".cartBox").hide();
 
 	$(".cart-button").click( function() {
@@ -44,6 +44,25 @@ $(document).ready( function() {
 		$(".searchBox").hide();
 
 	});
+
+	// Parallax
+	var $window = $(window); 
+	var velocity = 0.4; 
+
+	function update(){ 
+
+		var pos = $window.scrollTop(); 
+		
+		$('.bg-container').each(function() { 
+			var $element = $(this); 
+			var height = $element.height(); 
+
+			$(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px'); 
+		}); 
+	}; 
+
+	$window.bind('scroll', update);
+
 
 	
 });
