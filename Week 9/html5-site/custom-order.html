@@ -9,7 +9,6 @@
 	<link rel="stylesheet" type="text/css" href="css/grid.css" />
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
 	<link rel="stylesheet" type="text/css" href="css/stylesheet_custom-order.css" />
-	<link rel="stylesheet" type="text/css" href="css/searchcart.css" />
 
 	<!-- javascrip -->
 
@@ -25,9 +24,6 @@
 
 		<img class="icon search-button" src="img/search.png" alt="search" />
 		<img class="icon cart-button" src="img/cart.png" alt="cart" />
-
-		<img class="triangle" src="img/triangle.png" alt="triangle" />
-		<img class="triangle" src="img/triangle.png" alt="triangle" />
 
 		<div class="searchBox">
 			<input type="search" name="s" placeholder="Search">
@@ -95,37 +91,20 @@
 
 			<h2 class="step-title">Who is it for?</h2>
 
-			<div class="three columns">
-				<label class="radio" for="who1">
-					<input id="who1" type="radio" name="who" value="small" />
-					<img src="./img/customs/placeholder-ghost.svg" alt="Friend" />
-				</label>
-					<p class="who">Friend</p>
+			<div class="present">
+				<img src="./img/customs/necklace-icon.svg" class="img-link" alt="" />
 			</div>
 
-			<div class="three columns">
-				<label class="radio" for="who2">
-					<input id="who2" type="radio" name="who" value="big" />
-					<img src="./img/customs/placeholder-bunny.svg" alt="Family" />
-				</label>
-				<p class="who">Family</p>
+			<div class="forWho">
+			<select class="filter" id="forWho">
+				<option value="forwho" class="choose">. . .</option>
+				<option value="friend" class="friend">For my friend</option>
+				<option value="family" class="family">For a family member</option>
+				<option value="myself" class="myself">For myself</option>
+				<option value="other" class="other">Other</option>
+			</select>
 			</div>
 
-			<div class="three columns">
-				<label class="radio" for="who3">
-					<input id="who3" type="radio" name="who" value="big" />
-					<img src="./img/customs/placeholder-reaper.svg" alt="Myself" />
-				</label>
-				<p class="who">Myself</p>
-			</div>
-
-			<div class="three columns">
-				<label class="radio" for="who4">
-					<input id="who4" type="radio" name="who" value="big" />
-					<img src="./img/customs/placeholder-witch.svg" alt="Other" />
-				</label>
-				<p class="who">Other</p>
-			</div>
 		</div>
 
 

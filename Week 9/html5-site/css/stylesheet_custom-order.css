@@ -199,6 +199,16 @@ input[type=radio]:hover + img {
 	opacity: 1;
 }
 
+.forWho {
+	width: 50%;
+	margin: auto;
+}
+
+.present {
+	width: 25%;
+	margin: auto;
+	margin-bottom: 20px;
+}
 
 /*reset CSS*/
 ul,li { 

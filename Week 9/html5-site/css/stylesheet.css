@@ -132,13 +132,20 @@ a:hover {
  header img.icon {
     width: 25px;
     margin: 20px 25px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
  }
 
-/* header img.search, header img.cart {
-    width: 25px;
-    margin: 20px 25px;
- }*/
+/* For the Cart box */
+.cartBox {
+  font-family: "Perspective Sans", sans-serif;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 4px; 
+  margin-bottom: 15px;
+  padding: .6em .6em .5em .6em;
+}
 
  /* =========================================================
  * Container Right
