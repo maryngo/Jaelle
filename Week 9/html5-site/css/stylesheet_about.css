@@ -11,42 +11,51 @@ html, body {
  * Content container
  * ========================================================= */
 
-.content-container {
+.content {
 	padding: 10px 30px 100px 30px;
 	margin: 0 10px;
-	background-color: rgba(255, 255, 255, 0.8);
-	}
+	background-color: rgba(255, 255, 255, 0.7);
+}
 	
-	.content-container p, h1, h2, h3 {
+.content p, h1, h2, h3 {
  		color: #333333;
- 		}
+ }
 	
 .category-header {
 	text-align: center;
 	font-size: 2em;
 	padding: 50px 0px;
 	letter-spacing: 5px;
-	}
+}
 	
-.about-content {
-/*	font-size: 1.2em;
-*/	padding-bottom: 30px;
+.product-info {
+	font-size: 1.2em;
+	padding-bottom: 30px;
 }
 	
 .bold {
 	font-weight: bold;
 }
 
-
-.who-img{
+/* =========================================================
+ * Who are We Content 
+ * ========================================================= */
+#who-img{
 	width: 100%;
 	height: 100%;
 }
 
 .who-content{
+	margin-top: 0;
 	padding-left: 3%
 }
 
+
+
+
+/* =========================================================
+ * Materials Content 
+ * ========================================================= */
 .mat-header, .process-header, .socmed-header{
 	margin-top: 100px;
 }
@@ -135,13 +144,13 @@ html, body {
  * SocMed Icons
  * ========================================================= */
 
-.facebook, .tumblr, .pinterest{
-	width: 70px;
-	height: 70px;
+#facebook, #tumblr, #pinterest{
+	width: 30px;
+	height: 30px;
 	/*padding: 0px 5px;*/
 }
 
-.tumblr, .pinterest{
-	margin-left: 2%;
+#tumblr, #pinterest{
+	/*margin-left: 0%;*/
 }
 	
