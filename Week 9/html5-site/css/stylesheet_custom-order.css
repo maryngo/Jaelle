@@ -48,6 +48,9 @@ html, body {
 	padding-bottom: 50px;
 }
 
+#who img, #what img, #why img, #contact-info img {
+	width: 100%;
+}
 
 #intro-message {
 	/*font-size: 1.3em;*/
