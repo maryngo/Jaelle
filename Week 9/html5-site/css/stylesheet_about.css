@@ -144,13 +144,62 @@ html, body {
  * SocMed Icons
  * ========================================================= */
 
+/* overriding width for .one class from grid.css */
+.one { 
+		width: 4em;
+}
+
+#facebook {
+		display: block;
+		width: 30px;
+		height: 30px;
+		background: url('../img/about/fb.png') right bottom;
+		background-repeat: no-repeat;
+		text-indent: -99999px;
+}
+	
+#facebook:hover {
+	background-position: right top;
+}
+
+#tumblr {
+		display: block;
+		width: 30px;
+		height: 30px;
+		background: url('../img/about/tmblr.png') right bottom;
+		background-repeat: no-repeat;
+		text-indent: -99999px;
+}
+	
+#tumblr:hover {
+	background-position: right top;
+}
+
+#pinterest {
+		display: block;
+		width: 30px;
+		height: 30px;
+		background: url('../img/about/pntrst.png') right bottom;
+		background-repeat: no-repeat;
+		text-indent: -99999px;
+}
+	
+#pinterest:hover {
+	background-position: right top;
+}
+
+/*
 #facebook, #tumblr, #pinterest{
 	width: 30px;
 	height: 30px;
-	/*padding: 0px 5px;*/
-}
+	padding: 0px 5px;
+} 
+
+*/
 
 #tumblr, #pinterest{
-	/*margin-left: 0%;*/
+	margin-left: 0%;
 }
+
+
 	
