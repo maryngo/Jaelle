@@ -1,0 +1,147 @@
+/* =========================================================
+ * Base styles
+ * ========================================================= */
+ 
+html, body {
+	background: url("../img/flowers-bg.png") repeat; 
+  	margin: 0;
+	}
+
+/* =========================================================
+ * Content container
+ * ========================================================= */
+
+.content-container {
+	padding: 10px 30px 100px 30px;
+	margin: 0 10px;
+	background-color: rgba(255, 255, 255, 0.8);
+	}
+	
+	.content-container p, h1, h2, h3 {
+ 		color: #333333;
+ 		}
+	
+.category-header {
+	text-align: center;
+	font-size: 2em;
+	padding: 50px 0px;
+	letter-spacing: 5px;
+	}
+	
+.about-content {
+/*	font-size: 1.2em;
+*/	padding-bottom: 30px;
+}
+	
+.bold {
+	font-weight: bold;
+}
+
+
+.who-img{
+	width: 100%;
+	height: 100%;
+}
+
+.who-content{
+	padding-left: 3%
+}
+
+.mat-header, .process-header, .socmed-header{
+	margin-top: 100px;
+}
+
+.mat-content{
+	padding-top: 2%;
+}
+
+.circular-container{
+	width: 62.5%;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.circular1{
+	margin: 2%;
+	background-image: url("../img/about/leatherCord.jpg");
+	float: left;
+	background-position: 60% 15%;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.circular2{
+	margin: 2%;
+	background-image: url("../img/about/beads.jpg");
+	float: left;
+	background-position: 10% 70%;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.circular3{
+	margin: 2%;
+	background-image: url("../img/about/chain.jpg");
+	float: left;
+	background-position: 25% 45%;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.circular4{
+	margin: 2%;
+	background-image: url("../img/about/yarn.jpg");
+	float: left;
+	background-position: 5% 200%;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}	
+
+.circular5{
+	margin: 2%;
+	background-image: url("../img/about/cutter.jpg");
+	float: left;
+	background-position: 83% 83%;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}	
+.circular6{
+	margin: 2%;
+	background-image: url("../img/about/clasps.jpg");
+	float: left;
+	background-position: 5% 45%;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}	
+/* =========================================================
+ * SocMed Icons
+ * ========================================================= */
+
+.facebook, .tumblr, .pinterest{
+	width: 70px;
+	height: 70px;
+	/*padding: 0px 5px;*/
+}
+
+.tumblr, .pinterest{
+	margin-left: 2%;
+}
+	
