@@ -69,6 +69,7 @@ html, body {
 	}
 	
 .image-gallery .big-image img { 
+	width: 100%;
   	display:none;
   	margin:0 auto;
 	}
