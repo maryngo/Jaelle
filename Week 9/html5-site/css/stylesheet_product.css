@@ -50,7 +50,9 @@ html, body {
 	width: 32%;
 }
 
-
+.specs{
+	padding-top: 10px;
+}
 
 /* =========================================================
  * Product Images Gallery
