@@ -112,7 +112,11 @@
 @media screen and (max-width: 600px) {
 
     /* makes kiwi bracelet chunk disappear */
-    .offset-two {
+    .offset-one {
+    	display: none;
+    }
+    
+    .offset-three {
     	display: none;
     }
     
