@@ -235,3 +235,48 @@ input {
  .item {
  	display: inline;
  }
+
+
+
+ .content-title-wrapper {
+	position: relative;
+	text-align: center;
+
+	margin: 0 auto;
+
+	background: url("../img/bracelets-title.jpg") no-repeat;
+	background-size: 100%;
+}
+
+.category-header {
+	display: inline-block;
+	margin: 100px auto;
+
+	font-size: 2em;
+	padding: 20px;
+	letter-spacing: 5px;
+
+	color: #000;
+	background-color: rgba(255,255,255,0.7);
+	border: 5px double #000;
+}
+
+@media screen and (max-width: 600px) {
+
+	.content-title {
+		display: none;
+	}
+
+	.content-title-wrapper {
+		background: rgba(0,0,0,0);
+	}
+
+	.category-header {
+		position: relative;
+		margin: 0;
+	}
+
+	.content {
+		padding: 0;
+		margin: 0;
+	}
