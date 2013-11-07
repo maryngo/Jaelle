@@ -1,0 +1,130 @@
+body {
+	position: relative;
+}
+
+.full-img {
+	width: 100%;
+	padding: 0px;
+	position: absolute;
+
+	z-index: -199;
+}
+
+.full-bg-img {
+	width: 100%;
+}
+
+.full-bg-girl {
+	position: absolute;
+	top: 0;
+	right: 20%;
+	height: 100%;
+}
+
+/*
+.circle {
+	position: absolute;
+
+}
+
+.a {
+	top: 25%;
+	right: 7%;
+}
+
+#circle1bg {
+	position: absolute;
+	top: -35px;
+	left: -25px;
+}
+
+.circle h1 {
+	font-size: 2em;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #fff;
+}*/
+
+
+/* All circles */
+.circle h1 {
+	font-size: 2vw;
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #fff;
+	margin: 0;
+}
+
+.circle a, .circle p {
+	color: #ffffff;
+	padding-top: 10px;
+	margin: 0;
+}
+/* Circle A*/
+.a {
+	position: absolute;
+	top: 25%;
+
+	background-color: ;
+}
+
+.circlebga {
+	position: absolute;
+	left: -50px;
+	top: -55px;
+
+	width: 160%;
+}
+
+/* Circle B*/
+.b {
+	position: absolute;
+	top: 20%;
+}
+
+.circlebgb {
+	position: absolute;
+	left: -50px;
+	top: -55px;
+
+	width: 160%;
+}
+
+
+/* Circle C*/
+.c {
+	position: absolute;
+	top: 50%;
+}
+
+.circlebgc {
+	position: absolute;
+	left: -50px;
+	top: -55px;
+
+	width: 160%;
+
+}
+
+
+/* Circles move on hover*/
+.rotate{
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+     
+    overflow:hidden;
+ 
+    }  
+ 
+.rotate:hover  
+{
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);
+}  
+

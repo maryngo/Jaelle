@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- added html class -->
+<html class ="no-js">
+<head>
+	<meta charset = "UTF-8">
+	
+	<title>Jaelle</title>
+
+	<!-- stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/grid.css" />
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="css/stylesheet_landing.css" />
+
+	<!-- javascrip -->
+	<!-- HTML5shiv.js from http://code.google.com/p/html5shiv/ for compatibility on older IE browsers -->
+	<script type="text/javascript" src="js/html5shiv.js"></script> 
+
+</head>
+
+<body>
+
+<!-- background img -->
+<!-- <section class="full-img">
+	<img class="full-bg-img" src="img/pebbles-bg.png" />
+	<img class="full-bg-girl" src="img/pebbles-girl.png" />
+	
+	<div class="circle a">
+		<img id="circle1bg" src="img/p-circle1.svg" /> 
+		<h1>Kiwi Ring &mdash; $6</h1>
+		<p>View all rings &rarr;</p>
+	</div>	
+</section> -->
+
+<section class="full-img">
+	<img class="full-bg-img" src="img/pebbles-bg.png" />
+	<img class="full-bg-girl" src="img/pebbles-girl.png" />
+	
+	<div class="two columns"></div>
+
+	
+	<div class="circle a offset-nine">
+		<img class="circlebga rotate" class="rotate" src="img/circle1.png" /> 
+		<h1>Kiwi Ring &mdash; $6</h1>
+		<p><a href="collections-bracelets.html">View all rings &rarr;</a></p>
+	</div>	
+
+	<div class="circle b offset-four">
+		<img class="circlebgb rotate" src="img/circle1.png" /> 
+		<h1>Kiwi Ring &mdash; $6</h1>
+		<p><a href="collections-bracelets.html">View all bracelets &rarr;</a></p>
+	</div>	
+
+	<div class="circle c offset-three">
+		<img class="circlebgc rotate" src="img/circle1.png" /> 
+		<h1>Kiwi Ring &mdash; $6</h1>
+		<p><a href="collections-bracelets.html">View all necklaces &rarr;</a></p>
+	</div>			
+</section>
+
+
+<div class="container-all">
+
+	<!-- logo banner -->
+	<header>
+		<a href="index.html"><img class="logo" src="img/logo.svg" alt="Jaelle" /></a>
+		<p class="tagline">Sharing stories with hand-crafted jewelry</p>
+
+		<img class="search icon" src="img/search.png" alt="search" />
+		<img class="cart icon" src="img/cart.png" alt="cart" />
+	</header>
+
+	<!-- nav bar -->
+	<!-- added next 3 -->
+	<div class="container-right">
+		<div id="outer-wrap">
+            <div id="inner-wrap">
+<!-- <body class="no-js">   -->
+        <script>  
+            var el = document.getElementsByTagName("body")[0];  
+            el.className = "";  
+        </script>
+		<header id="top" role="banner">
+                    <div class="block">
+                        <a class="nav-btn" id="nav-open-btn" href="#nav"></a>
+                    </div>
+                </header>
+
+                <nav id="nav" role="navigation">
+                    <div class="block">
+                        <ul>
+                            <li>
+                                <a href="#">Collections &#x25BC;</a>
+                                    <ul>    
+                                        <li><a href="#">Necklaces</a></li>  
+                                        <li><a href="collections-bracelets.html">Bracelets</a></li>  
+                                        <li><a href="#">Rings</a></li>  
+                                        <li><a href="#">Charms</a></li>  
+                                        <li class="last"><a href="#">Custom</a></li>
+                                    </ul>
+                            </li>
+                            <li><a href="#">Make It Yours</a></li>
+                            <li><a href="http://www.jaelledesigns.tumblr.com">Blog</a></li>
+                            <li><a href="about.html">About Jaelle</a></li>
+                            <li><a href="#">Get in Touch</a></li>
+                        </ul>
+                        <a class="close-btn" id="nav-close-btn" href="#top">Return to Content</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+		<!-- content -->
+		<section class="content twelve columns">
+
+			<section class="page-title"> </section>
+
+			<section class="body-content">
+
+			</section>
+
+		</section>
+	</div>
+
+</div>
+<script src="js/jquery.js"></script>  
+<script src="js/modernizr.js"></script>  
+<script>  
+    (function($){  
+                  
+        //cache nav  
+        var nav = $("#topNav");  
+                  
+        //add indicators and hovers to submenu parents  
+        nav.find("li").each(function() {  
+            if ($(this).find("ul").length > 0) {  
+                  
+                $("<span>").text("").appendTo($(this).children(":first"));  
+  
+                //show subnav on hover  
+                $(this).mouseenter(function() {  
+                    $(this).find("ul").stop(true, true).slideDown();  
+                });  
+                          
+                //hide submenus on exit  
+                $(this).mouseleave(function() {  
+                    $(this).find("ul").stop(true, true).slideUp();  
+                });  
+            }  
+        });  
+    })(jQuery);  
+</script>
+</body>
+
+</html>
+
+<!-- nav bar -->
+	<!-- <div class="container-right">
+		<nav id="topNav"> -->
+			<!-- <a class="nav-btn" id="nav-open-btn" href="#nav"></a> -->
+			<!-- <a class="close-btn" id="nav-close-btn" href="#top"></a> -->
+			<!-- <ul>  
+                <li>
+                    <a href="#">Collections &#x25BC;</a>
+                        <ul>    
+                            <li><a href="#">Necklaces</a></li>  
+                            <li><a href="collections-bracelets.html">Bracelets</a></li>  
+                            <li><a href="#">Rings</a></li>  
+                            <li><a href="#">Charms</a></li>  
+                            <li class="last"><a href="#">Custom</a></li>
+                        </ul>                  
+                </li>  
+                <li><a href="custom.html">Make It Yours</a></li>  
+                <li><a href="http://www.jaelledesigns.tumblr.com">The Blog</a></li>  
+                <li><a href="about.html">About Jaelle</a></li>  
+                <li><a href="#">Get In Touch</a></li>  
+            </ul>
+           
+		</nav>
+	</body> -->

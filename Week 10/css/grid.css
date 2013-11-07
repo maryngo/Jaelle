@@ -1,0 +1,61 @@
+/*
+ *
+ * CSS Styles for IAT381 Week 4 Demo
+ * by Stanley Lai
+ * http://www.stanleylai.sg
+ *
+ */
+
+/* =========================================================
+ * Grid CSS Styles
+ * ========================================================= */
+ * {
+ 	-moz-box-sizing: border-box;
+ 	-o-box-sizing:border-box;
+ 	-webkit-box-sizing:border-box;
+ 	box-sizing: border-box;
+ }
+ .container {
+ 	margin: 0 auto;
+ 	width: 100%;
+ 	max-width: 1140px;
+ }
+
+.row {
+	position: relative;
+	overflow: hidden;
+	clear: both;
+}
+
+.column, .columns {
+	float: left;
+	/*border: 1px solid red; */
+}
+
+/* 100/ total number of columns * columns width */
+.one { width: 8.33333333%;}
+.two { width: 16.66666666%;}
+.three { width: 25%;}
+.four{ width: 33.3333333%;}
+.five{ width:41.6666667%;}
+.six{ width: 50%;}
+.seven{ width: 58.3333333%;}
+.eight{ width:66.666666667%;}
+.nine{ width:75%;}
+.ten{ width:83.333333333%;}
+.eleven{ width:91.66666667%;}
+.twelve{ width:100%;}
+
+/*offset columns*/
+.offset-one { margin-left: 8.33333333%;}
+.offset-two { margin-left: 16.66666666%;}
+.offset-three { margin-left: 25%;}
+.offset-four{ margin-left: 33.3333333%;}
+.offset-five{ margin-left:41.6666667%;}
+.offset-six{ margin-left: 50%;}
+.offset-seven{ margin-left: 58.3333333%;}
+.offset-eight{ margin-left:66.666666667%;}
+.offset-nine{ margin-left:75%;}
+.offset-ten{ margin-left:83.333333333%;}
+.offset-eleven{ margin-left:91.66666667%;}
+.offset-twelve{ margin-left:100%;}
