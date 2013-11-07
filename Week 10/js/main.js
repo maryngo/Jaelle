@@ -89,11 +89,11 @@ $(document).ready( function() {
 		if ($(window).width() > 600){
 
 			$(".drop").mouseenter( function() {
-				$(".secondary").show();
+				$(".secondary").slideDown();
 			});
 
 			$(".drop").mouseleave( function() {
-				$(".secondary").hide();
+				$(".secondary").slideUp();
 			});
 
 		}

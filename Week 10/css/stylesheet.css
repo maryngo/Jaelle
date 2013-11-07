@@ -69,6 +69,9 @@ html, body {
     width: 100%;
     margin: 0px;
     padding: 0px;
+
+    position: relative;
+    z-index: 0;
 }
 
 .ninety {
@@ -81,7 +84,7 @@ html, body {
  * ========================================================= */
 
 p {
-    line-height: 1.5em;
+    line-height: 2em;
     }
     
 h1, h2, h3 {
@@ -142,7 +145,7 @@ header {
 
  #logo-container img.logo {
     width: 13%;
-    padding: 25px 0 15px;
+    padding: 25px 0 20px;
  }
 
  /* =========================================================
@@ -163,28 +166,27 @@ img.search, img.cart {
  * Nav Bar
  * ========================================================= */
 
-#nav-icon {
+#mobile-icons{
     display: none;
 }
 
 nav {
     text-align: center;
     padding: 13px 0px 10px;
+    position: relative;
+    z-index: 100;
 }
 
 nav a {
     font-family: "Carrosserie";
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: 2px;
 }
 
 .link {
-    border-top: 0px solid #4b4b4b;
     border-right: 1px solid #999;
-    border-left: 0px solid #4b4b4b;
-    padding: 3px 0 2px;
-
-    margin-bottom: 15px;
+    padding: 0;
+    margin-bottom: 150px;
 }
 
 .drop {
@@ -193,16 +195,20 @@ nav a {
 
 .secondary {
     display: block;
+    height: 100%;
     width: 100%;
     border-right: 0;
 
-    padding-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 3px;
 
     background-color: #333;
+}
 
-/*    position: absolute;
-    left: 0;
-    z-index: 99;*/
+.secondary-links {
+    position: absolute;
+    width: 100%;
+    z-index: 99;
 }
 
 
@@ -251,15 +257,22 @@ nav.center ul {
  * Content Title
  * ========================================================= */
 
+.content-title-wrapper {
+    top: -110px;
+}
 .content-title {
     background-color: rgba(255, 255, 255, 0.7);
     text-align: center;
-    z-index: -99;
+    position: relative;
+    z-index: -1;
 }
 
 /* =========================================================
  * Content
  * ========================================================= */
+.content-wrapper {
+    top: -100px;
+}
 
  .content {
     margin: 0;
@@ -285,11 +298,11 @@ nav.center ul {
 
 footer {
     border-top: 1px dotted #999999;
+    top: -30px;
 }
 
 footer div {
     padding: 10px;
-    margin-bottom: 30px;
 
 }
 
@@ -322,19 +335,68 @@ a.cta-button {
 /*    .column, .columns {
         float: none;
     }*/
-    .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+    .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .ninety {
         width: 100%;
     }   
-    
-  
-    /* Nav bar */
 
-    #nav-icon {
+    img {
+        width: 100%;
+    }
+    
+    /* Fix logo size*/
+     #logo-container img.logo {
+        width: 40%;
+        padding: 15px;
+     }
+  
+    /* Show mobile icons (nav, search, cart) */
+    #mobile-icons {
         display: block;
+        margin-bottom: 10px;
     }
 
+    img.search, img.cart, #nav-icon {
+        width: 30px;
+        margin: 0 15px;
+     }
+
+    /* Hide extra search-cart icons*/
+    #search-cart {
+        display: none;
+    }
+
+    /* Nav bar */
     .secondary {
         display: block;
+        padding: 10px 0;
+        background-color: #333;
+    }
+
+    .secondary-links {
+        position: relative;
+        margin-top: 10px;
+    }
+
+    nav {
+        padding; 0;
+    }
+
+    .primary {
+        margin-top: 0px;
+    }
+
+    .drop {
+        padding-top: 10px;
+    }
+
+    .link {
+        margin-bottom: 20px;
+        border: 0;
+    }
+
+    /* Move wrappers back down */
+    .content-title-wrapper, .content-wrapper, footer {
+        top: 0;
     }
 
 

@@ -38,21 +38,42 @@
 		
 		<!-- nav bar -->
 		<nav>
-			<img src="img/nav-icon.png" id="nav-icon"/>
-			<div class="testThis">
+			<!-- mobile: icons -->
+			<div id="mobile-icons">
+				<img src="img/nav-icon.png" id="nav-icon"/>
+				<a href="#" class="search-button">
+				<img class="search icon" src="img/search.png" alt="search" />
+				</a>
+				
+				<a href="#" class="cart-button">
+					<img class="cart icon" src="img/cart.png" alt="cart" />
+				</a>
+
+				<div class="searchBox">
+					<input type="search" name="s" placeholder="Search">
+				</div>
+
+				<div class="cartBox">
+					<p>Your cart is currently empty :(</p>
+				</div>
+			</div>
+			<!-- end mobile icons -->
+			
 	        <div class="two columns link drop">
 	        	<a href="#" class="primary">Collections &#x25BE;</a>   
- 				<a href="#" class="secondary">Necklaces</a>
-	            <a href="collections-bracelets.html" class="secondary">Bracelets</a>
-	            <a href="#" class="secondary">Rings</a>
-	            <a href="#" class="secondary">Charms</a>
-	            <a href="#" class="secondary">Custom</a>
+	        	<div class="secondary-links">
+	 				<a href="#" class="secondary">Necklaces</a>
+		            <a href="collections-bracelets.html" class="secondary">Bracelets</a>
+		            <a href="#" class="secondary">Rings</a>
+		            <a href="#" class="secondary">Charms</a>
+		            <a href="#" class="secondary">Custom</a>
+		        </div>
 	        </div>
+
 	        <a href="custom.html" class="two columns link primary">Make It Yours</a>
 	        <a href="http://www.jaelledesigns.tumblr.com" class="two columns link primary">The Blog</a>
 	        <a href="about.html" class="two columns link primary">About Jaelle</a>
 	        <a href="#" class="two columns link primary">Get In Touch</a>  
-	    	</div>
 		</nav>
 		<!-- end nav bar -->
 
@@ -70,33 +91,18 @@
 			</div>
 
 			<div class="cartBox">
-				Halloooo
+				<p>Your cart is currently empty D:</p>
 			</div>
 		</div>   
-
-
-
-<!-- 		<nav>
-			<ul>
-				<li class="current"><a href="#" class="link">Collections</a></li>
-				<li><a href="#" class="link">Make It Yours</a></li>
-				<li><a href="#" class="link">The Blog</a></li>
-				<li><a href="#" class="link">About Jaelle</a></li>
-				<li><a href="#" class="link">Get In Touch</a></li>
-			</ul>
-		</nav> -->
-
-
-
 	</div>
 	<!-- end row width 90% -->
 
-	<!-- row width 100% -->
-	<div class="row hundred">
+	<!-- row width 100% (auto) -->
+	<div class="row content-title-wrapper">
 	
 		<!-- content title -->
 		<section class="content-title">
-			<img src="http://placehold.it/1000x300"/>
+			<img src="http://placehold.it/1200x400"/>
 		</section>
 		<!-- end content title -->
 
@@ -105,7 +111,7 @@
 
 	
 	<!-- row width 90% -->
-	<div class="row ninety">
+	<div class="row ninety content-wrapper">
 	
 		<!-- content -->
 		<section class="content">
@@ -136,8 +142,7 @@
 
 
 	<!-- row width 90% -->
-	<div class="row ninety">
-		<footer>
+	<footer class="row ninety">
 			<div class="three columns">
 				<h3>Cows go mooo</h3>
 				<p>MOoOOoooOoOo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<p>
@@ -167,8 +172,7 @@
 
 					<a href="#" class="cta-button">Send</a></form>
 			</div>
-		</footer>
-	</div>
+	</footer>
 
 	<!-- 	<div class="js-bg-1 bg-container">
 				<h1>DIV ONE</h1>
