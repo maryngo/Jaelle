@@ -1,179 +1,227 @@
 <!DOCTYPE html>
-<!-- added html class -->
-<html class ="no-js">
+
 <head>
 	<meta charset = "UTF-8">
 	
 	<title>Jaelle</title>
 
+ 	<script src="./js/modernizr.js"></script>
+
+
 	<!-- stylesheets -->
 	<link rel="stylesheet" type="text/css" href="css/grid.css" />
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
-	<link rel="stylesheet" type="text/css" href="css/stylesheet_landing.css" />
+	<link rel="stylesheet" type="text/css" href="css/stylesheet_index.css" />
 
 	<!-- javascrip -->
 	<!-- HTML5shiv.js from http://code.google.com/p/html5shiv/ for compatibility on older IE browsers -->
-	<script type="text/javascript" src="js/html5shiv.js"></script> 
+	<script type="text/javascript" src="js/html5shiv.js"></script>
+
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]--> 
 
 </head>
 
 <body>
 
-<!-- background img -->
-<!-- <section class="full-img">
-	<img class="full-bg-img" src="img/pebbles-bg.png" />
-	<img class="full-bg-girl" src="img/pebbles-girl.png" />
+	<!-- row width: 90% -->
+	<div class="row ninety">
+		
+		<!-- logo -->
+		<header class="twelve columns">
+			<div id="logo-container">
+				<a href="index.html"><img class="logo" src="img/logo-new.png" alt="Jaelle" /></a>
+			</div>
+		</header>
+		<!-- end logo -->
+		
+		<!-- nav bar -->
+		<nav>
+			<!-- mobile: icons -->
+			<div id="mobile-icons">
+				<img src="img/nav-icon.png" id="nav-icon" alt="nav icon"/>
+				<a href="#" class="search-button">
+				<img class="search icon" src="img/search.png" alt="search" />
+				</a>
+				
+				<a href="#" class="cart-button">
+					<img class="cart icon" src="img/cart.png" alt="cart" />
+				</a>
+
+				<div class="searchBox">
+					<input type="search" name="s" placeholder="Search">
+				</div>
+
+				<div class="cartBox">
+					<p>Your cart is currently empty :(</p>
+				</div>
+			</div>
+			<!-- end mobile icons -->
+			
+	        <div class="two columns link drop">
+	        	<a href="#" class="primary">Collections &#x25BE;</a>   
+	        	<div class="secondary-links">
+	 				<a href="#" class="secondary">Necklaces</a>
+		            <a href="collections-bracelets.html" class="secondary">Bracelets</a>
+		            <a href="#" class="secondary">Rings</a>
+		            <a href="#" class="secondary">Charms</a>
+		            <a href="#" class="secondary">Custom</a>
+		        </div>
+	        </div>
+
+	        <a href="custom.html" class="two columns link primary">Make It Yours</a>
+	        <a href="http://www.jaelledesigns.tumblr.com" class="two columns link primary">The Blog</a>
+	        <a href="about.html" class="two columns link primary">About Jaelle</a>
+	        <a href="#footer" class="two columns link primary">Get In Touch</a>  
+		</nav>
+		<!-- end nav bar -->
+
+ 		<div id="search-cart" class="two columns">
+			<a href="#" class="search-button">
+			<img class="search icon" src="img/search.png" alt="search" />
+			</a>
+			
+			<a href="#" class="cart-button">
+				<img class="cart icon" src="img/cart.png" alt="cart" />
+			</a>
+
+			<div class="searchBox">
+				<input type="search" name="s" placeholder="Search">
+			</div>
+
+			<div class="cartBox">
+				<p>Your cart is currently empty D:</p>
+			</div>
+		</div>   
+	</div>
+	<!-- end row width 90% -->
+
+	<!-- row width 100% (auto) -->
+	<div class="row content-title-wrapper">
 	
-	<div class="circle a">
-		<img id="circle1bg" src="img/p-circle1.svg" /> 
-		<h1>Kiwi Ring &mdash; $6</h1>
-		<p>View all rings &rarr;</p>
-	</div>	
-</section> -->
+		<!-- content title -->
+		<section class="content-title">
 
-<section class="full-img">
-	<img class="full-bg-img" src="img/pebbles-bg.png" />
-	<img class="full-bg-girl" src="img/pebbles-girl.png" />
+			<div>
+				<img class="twelve columns" src="img/index-title.jpg" alt="title img"/>
+			</div>
+
+			<div>
+				<img class="six columns" src="img/index-bohemian.jpg" alt="title img"/>
+			</div>
+
+			<div class="six columns" id="index-promotion">
+				<h1>well hello there.</h1>
+			</div>
+
+		</section>
+		<!-- end content title -->
+
+	</div>
+	<!-- end row width 100% -->
+
 	
-	<div class="two columns"></div>
-
+	<!-- row width 90% -->
+	<div class="row ninety content-wrapper">
 	
-	<div class="circle a offset-nine">
-		<img class="circlebga rotate" class="rotate" src="img/circle1.png" /> 
-		<h1>Kiwi Ring &mdash; $6</h1>
-		<p><a href="collections-bracelets.html">View all rings &rarr;</a></p>
-	</div>	
-
-	<div class="circle b offset-four">
-		<img class="circlebgb rotate" src="img/circle1.png" /> 
-		<h1>Kiwi Ring &mdash; $6</h1>
-		<p><a href="collections-bracelets.html">View all bracelets &rarr;</a></p>
-	</div>	
-
-	<div class="circle c offset-three">
-		<img class="circlebgc rotate" src="img/circle1.png" /> 
-		<h1>Kiwi Ring &mdash; $6</h1>
-		<p><a href="collections-bracelets.html">View all necklaces &rarr;</a></p>
-	</div>			
-</section>
-
-
-<div class="container-all">
-
-	<!-- logo banner -->
-	<header>
-		<a href="index.html"><img class="logo" src="img/logo.svg" alt="Jaelle" /></a>
-		<p class="tagline">Sharing stories with hand-crafted jewelry</p>
-
-		<img class="search icon" src="img/search.png" alt="search" />
-		<img class="cart icon" src="img/cart.png" alt="cart" />
-	</header>
-
-	<!-- nav bar -->
-	<!-- added next 3 -->
-	<div class="container-right">
-		<div id="outer-wrap">
-            <div id="inner-wrap">
-<!-- <body class="no-js">   -->
-        <script>  
-            var el = document.getElementsByTagName("body")[0];  
-            el.className = "";  
-        </script>
-		<header id="top" role="banner">
-                    <div class="block">
-                        <a class="nav-btn" id="nav-open-btn" href="#nav"></a>
-                    </div>
-                </header>
-
-                <nav id="nav" role="navigation">
-                    <div class="block">
-                        <ul>
-                            <li>
-                                <a href="#">Collections &#x25BC;</a>
-                                    <ul>    
-                                        <li><a href="#">Necklaces</a></li>  
-                                        <li><a href="collections-bracelets.html">Bracelets</a></li>  
-                                        <li><a href="#">Rings</a></li>  
-                                        <li><a href="#">Charms</a></li>  
-                                        <li class="last"><a href="#">Custom</a></li>
-                                    </ul>
-                            </li>
-                            <li><a href="#">Make It Yours</a></li>
-                            <li><a href="http://www.jaelledesigns.tumblr.com">Blog</a></li>
-                            <li><a href="about.html">About Jaelle</a></li>
-                            <li><a href="#">Get in Touch</a></li>
-                        </ul>
-                        <a class="close-btn" id="nav-close-btn" href="#top">Return to Content</a>
-                    </div>
-                </nav>
-            </div>
-        </div>
-
 		<!-- content -->
-		<section class="content twelve columns">
+		<section class="content">
 
 			<section class="page-title"> </section>
 
 			<section class="body-content">
+				
+				<div class="four columns">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+
+				<div class="four columns">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+
+				<div class="four columns">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
 
 			</section>
 
 		</section>
+		<!-- end content -->
+
+	</div>
+	<!-- end row width 90% -->
+
+
+	<!-- row width 90% -->
+	<div class="row footer-wrapper">
+	<footer class="row ninety" id="footer">
+			<div class="three columns">
+				<h3>Our Philosophy</h3>
+				<p class="tagline"><em>"Sharing stories with hand-crafted jewelry"</em><p>
+				<p>Here at Jaelle, we put a personal touch to our creations by hand-crafting each and every product.</p>
+				<a href="#">More about us! &rarr; </a>
+
+			</div>
+
+			<div class="three columns">
+				<h3>Latest update</h3>
+				<p>Swiiiish laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<p>
+				<a href="#">Read the rest! &rarr; </a>
+			</div>
+
+			<div class="three columns contact-links">
+				<h3>Contact Deets</h3>
+				<a id="cell" href="/"></a>
+				<p id="cell-num">778.870.4485</p>
+				
+				<a id="email" href="mailto:hello@jaelle.com"></a>
+				<p id="email-add"><a href="mailto:hello@jaelle.com">hello@jaelle.com</a></p>
+					
+				<a id ="fb" href="#" target="_top">facebook</a>
+				<p id="fb-link">
+					<a href="http://www.facebook.com">facebook.com/jaelle</a>
+				</p>
+				
+				<a id ="pntrst" href="#" target="_top">pinterest</a>
+				<p id="pinterest-link">
+					<a href="http://www.pinterest.com/jaeify">pinterest.com/jaelle</a>
+				</p>
+
+				<a id ="tmblr" href="#" target="_top">tumblr</a>
+				<p id="tumblr-link">
+					<a href="http://tumblr.com/jaelledesigns">tumblr.com/jaelle</a>
+				</p>
+			</div>
+
+			<div class="three columns">
+				<h3>Ready to get in touch?</h3>
+				<form action="form.php" method="get">
+		
+					<input type="email" name="email" placeholder="you@somewhere.com" />
+					<textarea name="comments" rows="8" cols="100" placeholder="Questions? Comments? Interesting fact? Quote of the day?"></textarea>
+
+					<a href="#" class="cta-button">Send</a></form>
+			</div>
+	</footer>
 	</div>
 
-</div>
-<script src="js/jquery.js"></script>  
-<script src="js/modernizr.js"></script>  
-<script>  
-    (function($){  
-                  
-        //cache nav  
-        var nav = $("#topNav");  
-                  
-        //add indicators and hovers to submenu parents  
-        nav.find("li").each(function() {  
-            if ($(this).find("ul").length > 0) {  
-                  
-                $("<span>").text("").appendTo($(this).children(":first"));  
-  
-                //show subnav on hover  
-                $(this).mouseenter(function() {  
-                    $(this).find("ul").stop(true, true).slideDown();  
-                });  
-                          
-                //hide submenus on exit  
-                $(this).mouseleave(function() {  
-                    $(this).find("ul").stop(true, true).slideUp();  
-                });  
-            }  
-        });  
-    })(jQuery);  
-</script>
+	<!-- 	<div class="js-bg-1 bg-container">
+				<h1>DIV ONE</h1>
+
+
+			<div class="js-bg-2 bg-container">
+				<h1>DIV TWO</h1>
+			</div>
+			</div> 	
+	 -->
+
+	<!-- HTML5shiv.js from http://code.google.com/p/html5shiv/ for compatibility on older IE browsers -->
+	<script type="text/javascript" src="./js/html5shiv.js"></script> 
+	<script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+	<script type="text/javascript" src="./js/index.js"></script>
 </body>
 
 </html>
-
-<!-- nav bar -->
-	<!-- <div class="container-right">
-		<nav id="topNav"> -->
-			<!-- <a class="nav-btn" id="nav-open-btn" href="#nav"></a> -->
-			<!-- <a class="close-btn" id="nav-close-btn" href="#top"></a> -->
-			<!-- <ul>  
-                <li>
-                    <a href="#">Collections &#x25BC;</a>
-                        <ul>    
-                            <li><a href="#">Necklaces</a></li>  
-                            <li><a href="collections-bracelets.html">Bracelets</a></li>  
-                            <li><a href="#">Rings</a></li>  
-                            <li><a href="#">Charms</a></li>  
-                            <li class="last"><a href="#">Custom</a></li>
-                        </ul>                  
-                </li>  
-                <li><a href="custom.html">Make It Yours</a></li>  
-                <li><a href="http://www.jaelledesigns.tumblr.com">The Blog</a></li>  
-                <li><a href="about.html">About Jaelle</a></li>  
-                <li><a href="#">Get In Touch</a></li>  
-            </ul>
-           
-		</nav>
-	</body> -->
