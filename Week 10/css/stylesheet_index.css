@@ -1,3 +1,37 @@
+/* Top Img */
+#index-img1 {
+    position: relative;
+    text-align: left;
+}
+
+    .desc {
+        position: absolute;
+        top: 70px;
+
+        padding: 50px 30px;
+
+        background: url("../img/circle1.png") no-repeat;
+        background-position: 0px 10px;
+        background-size: 100%;
+    }
+
+    .desc h3 {
+        font-size: 1.6em;
+        letter-spacing: 3px;
+        margin: 20px 0 10px;
+    }
+
+    .desc p {
+        background-color: #fff;
+        color: #333;
+        margin: 0;
+        padding-left: 5px;
+
+        font-size: 0.8em;
+        text-transform: uppercase;
+    }
+
+/* Pink Square*/
 #index-promotion {
     color: #333333;
     position: relative;
@@ -23,6 +57,7 @@
         font-size: 3em;
         padding: 0 0 20px;
         margin: 50px 0 5px;
+        letter-spacing: 3px;
         border-bottom: 1px solid #333;
     }
 
@@ -40,7 +75,7 @@
         margin: 0 0 30px;
     }
 
-.bracelet-icon {
-    width: 30%;
-    position: relative;
-}
+    .bracelet-icon {
+        width: 30%;
+        position: relative;
+    }
