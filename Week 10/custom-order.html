@@ -3,7 +3,10 @@
 <head>
 	<meta charset = "UTF-8">
 	
-	<title>Jaelle | Custom Order</title>
+	<title>Jaelle | Make it Yours</title>
+
+ 	<script src="./js/modernizr.js"></script>
+
 
 	<!-- stylesheets -->
 	<link rel="stylesheet" type="text/css" href="css/grid.css" />
@@ -11,60 +14,106 @@
 	<link rel="stylesheet" type="text/css" href="css/stylesheet_custom-order.css" />
 
 	<!-- javascrip -->
+	<!-- HTML5shiv.js from http://code.google.com/p/html5shiv/ for compatibility on older IE browsers -->
+	<script type="text/javascript" src="js/html5shiv.js"></script>
+
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]--> 
 
 </head>
 
 <body>
-<div class="container-all">
 
-	<!-- logo banner -->
-	<header>
-		<a href="index.html"><img class="logo" src="img/logo.svg" alt="Jaelle" /></a>
-		<p class="tagline">Sharing stories with hand-crafted jewelry</p>
-
-		<a href="#" class="search-button">
-			<img class="search icon" src="img/search.png" alt="search" />
-		</a>
+	<!-- row width: 90% -->
+	<div class="row ninety">
 		
-		<a href="#" class="cart-button">
-			<img class="cart icon" src="img/cart.png" alt="cart" />
-		</a>
+		<!-- logo -->
+		<header class="twelve columns">
+			<div id="logo-container">
+				<a href="index.html"><img class="logo" src="img/logo-new.png" alt="Jaelle" /></a>
+			</div>
+		</header>
+		<!-- end logo -->
+		
+		<!-- nav bar -->
+		<nav>
+			<!-- mobile: icons -->
+			<div id="mobile-icons">
+				<img src="img/nav-icon.png" id="nav-icon" alt="nav icon"/>
+				<a href="#" class="search-button">
+				<img class="search icon" src="img/search.png" alt="search" />
+				</a>
+				
+				<a href="#" class="cart-button">
+					<img class="cart icon" src="img/cart.png" alt="cart" />
+				</a>
 
-		<div class="searchBox">
-			<input type="search" name="s" placeholder="Search">
-		</div>
+				<div class="searchBox">
+					<input type="search" name="s" placeholder="Search">
+				</div>
 
-		<div class="cartBox">
-			Halloooo
-		</div>
+				<div class="cartBox">
+					<p>Your cart is currently empty :(</p>
+				</div>
+			</div>
+			<!-- end mobile icons -->
+			
+	        <div class="two columns link drop">
+	        	<a href="#" class="primary">Collections &#x25BE;</a>   
+	        	<div class="secondary-links">
+	 				<a href="#" class="secondary">Necklaces</a>
+		            <a href="collections-bracelets.html" class="secondary">Bracelets</a>
+		            <a href="#" class="secondary">Rings</a>
+		            <a href="#" class="secondary">Charms</a>
+		            <a href="#" class="secondary">Custom</a>
+		        </div>
+	        </div>
 
-	</header>
-
-	<!-- nav bar -->
-	<div class="container-right">
-
-		<nav id="topNav">
-			<!-- <a class="nav-btn" id="nav-open-btn" href="#nav"></a> -->
-			<!-- <a class="close-btn" id="nav-close-btn" href="#top"></a> -->
-			<ul>  
-                <li>
-                    <a href="#">Collections &#x25BC;</a>
-                        <ul>    
-                            <li><a href="#">Necklaces</a></li>  
-                            <li><a href="collections-bracelets.html">Bracelets</a></li>  
-                            <li><a href="#">Rings</a></li>  
-                            <li><a href="#">Charms</a></li>  
-                            <li class="last"><a href="#">Custom</a></li>
-                        </ul>                  
-                </li>  
-                <li><a href="custom.html">Make It Yours</a></li>  
-                <li><a href="http://www.jaelledesigns.tumblr.com">The Blog</a></li>  
-                <li><a href="about.html">About Jaelle</a></li>  
-                <li><a href="#">Get In Touch</a></li>  
-            </ul>
-           
+	        <a href="custom.html" class="two columns link primary">Make It Yours</a>
+	        <a href="http://www.jaelledesigns.tumblr.com" class="two columns link primary">The Blog</a>
+	        <a href="about.html" class="two columns link primary">About Jaelle</a>
+	        <a href="#footer" class="two columns link primary">Get In Touch</a>  
 		</nav>
+		<!-- end nav bar -->
 
+ 		<div id="search-cart" class="two columns">
+			<a href="#" class="search-button">
+			<img class="search icon" src="img/search.png" alt="search" />
+			</a>
+			
+			<a href="#" class="cart-button">
+				<img class="cart icon" src="img/cart.png" alt="cart" />
+			</a>
+
+			<div class="searchBox">
+				<input type="search" name="s" placeholder="Search">
+			</div>
+
+			<div class="cartBox">
+				<p>Your cart is currently empty D:</p>
+			</div>
+		</div>   
+	</div>
+	<!-- end row width 90% -->
+
+	<!-- row width 100% (auto) -->
+	<!-- <div class="row content-title-wrapper"> -->
+	
+		<!-- content title -->
+		<!-- <section class="content-title"> -->
+			<!-- <img src="http://placehold.it/1200x400" alt="placeholder"/> -->
+		<!-- </section> -->
+		<!-- end content title -->
+
+	<!-- </div> -->
+	<!-- end row width 100% -->
+
+	
+	<!-- row width 90% -->
+	<div class="row ninety content-wrapper">
+	
 		<!-- content -->
 		<section class="content">
 
@@ -74,193 +123,247 @@
 
 			<section class="body-content">
 			
-			<p class="breadcrumbs">
-				<a href="#">Home</a> > 
-				<a href="#">Make it Yours</a>
-			</p>
+				<p class="breadcrumbs">
+					<a href="#">Home</a> > 
+					<a href="#">Make it Yours</a>
+				</p>
 
-		<!-- SECTION 1: MESSAGE FROM JESSICA -->
-		<div id="message" class="row">
-			<!-- <p> -->
-				<h2 class="step-title">A Message from Jessica</h2>
-			<!-- </p> -->
+				<!-- SECTION 1: MESSAGE FROM JESSICA -->
+				<div id="message" class="row">
+					<!-- <p> -->
+						<h2 class="step-title">A Message from Jessica</h2>
+					<!-- </p> -->
 
-			<p id="intro-message">
-				You can crush me but you can't crush my spirit! This is the worst kind of discrimination: the kind against me! Ah, yes! John Quincy Adding Machine. He struck a chord with the voters when he pledged not to go on a killing.
-			</p>
-		</div>
+					<p class="message">
+						Hey guys, thanks for visiting my website! It's great to be able to share my love of designing and creating hand-made jewelry with you. That's why here, you get to collaborate with me to design the jewelry of your choice. Whether it's for a present for someone, or just a treat yourself, there's always a story behind it the piece. Tell me your story and let's make something beautiful!  
 
-		
-		<!-- SECTION 2: WHO IS IT FOR -->
-		<div id="who" class="row">
-
-			<h2 class="step-title">Who is it for?</h2>
-
-			<div class="three columns">
-				<label class="radio" for="who1">
-					<input id="who1" type="radio" name="who" value="small" />
-					<img src="./img/customs/placeholder-ghost.svg" alt="Friend" />
-				</label>
-					<p class="who">Friend</p>
-			</div>
-
-			<div class="three columns">
-				<label class="radio" for="who2">
-					<input id="who2" type="radio" name="who" value="big" />
-					<img src="./img/customs/placeholder-bunny.svg" alt="Family" />
-				</label>
-				<p class="who">Family</p>
-			</div>
-
-			<div class="three columns">
-				<label class="radio" for="who3">
-					<input id="who3" type="radio" name="who" value="big" />
-					<img src="./img/customs/placeholder-reaper.svg" alt="Myself" />
-				</label>
-				<p class="who">Myself</p>
-			</div>
-
-			<div class="three columns">
-				<label class="radio" for="who4">
-					<input id="who4" type="radio" name="who" value="big" />
-					<img src="./img/customs/placeholder-witch.svg" alt="Other" />
-				</label>
-				<p class="who">Other</p>
-			</div>
-		</div>
-
-
-		<!-- SECTION 3: WHAT KIND OF JEWELRY -->
-		<div id="what" class="row">
-
-			<h2 class="step-title">What are you looking for?</h2>
-
-			<div class="three columns">
-			  	<label class="radio" for="jwl1">
-					<input id="jwl1" type="radio" name="jewelry-type" value="big" />
-					<img src="./img/customs/necklace-icon.svg" class="img-link" alt="" />
-				</label>
-				<p class="jewelry">Necklace</p>
-			</div>
-
-			<div class="three columns">
-			  	<label class="radio" for="jwl2">
-					<input id="jwl2" type="radio" name="jewelry-type" value="big" />
-					<img src="./img/customs/bracelet-icon.svg" class="img-link" alt="" />
-				</label>
-				<p class="jewelry">Bracelet</p>
-			</div>
-
-			<div class="three columns">
-			  	<label class="radio" for="jwl3">
-					<input id="jwl3" type="radio" name="jewelry-type" value="big" />
-					<img src="./img/customs/ring-icon.svg" class="img-link" alt="" />
-				</label>
-				<p class="jewelry">Ring</p>
-			</div>
-
-			<div class="three columns">
-			  	<label class="radio" for="jwl4">
-					<input id="jwl4" type="radio" name="jewelry-type" value="big" />
-					<img src="./img/customs/placeholder.svg" class="img-link" alt="" />
-				</label>
-				<p class="jewelry">Charm</p>
-			</div>
-		</div>
-
-
-		<!-- SECTION 4: WHAT IS YOUR STORY -->
-		<div id="why" class="row">
-
-			<h2 class="step-title">Have a story to tell?</h2>
-
-			<p>
-				Here's your chance! As a creative, I'm always interested in the story behind every piece.
-			</p>
-
-			<div class="row">
-				<div class="four columns">
-					<p class="story-desc">
-						Care to share your story with me? I want to know why you want this piece created.
 					</p>
 				</div>
 
-				<div class="eight columns">
-					<textarea class="story" placeholder="Share a story with me!"></textarea>
-				</div>
-			</div>
+				
+				<!-- SECTION 2: WHO IS IT FOR -->
+				<div id="who" class="row">
 
-			<div class="row">
-				<div class="four columns">
-					<p class="story-desc">
-						Color is very inspirational! It gives me a sense of direction.
-					</p>
-				</div>
+					<h2 class="step-title">Who is it for?</h2>
 
-				<div class="eight columns">
-					<textarea class="story" placeholder="Let's talk color!"></textarea>
-				</div>
-			</div>
+					<div class="present">
+						<img src="./img/customs/gift.svg" alt="" />
+					</div>
 
-			<div class="row">
-				<div class="four columns">
-					<p class="story-desc">
-						Do you have any material preferences? 
-					</p>
-				</div>
+					<div class="forWho">
+						<select name="forWho" id="forWho">
+							<option value="forwho" class="choose">. . .</option>
+							<option value="friend" class="friend">For my friend</option>
+							<option value="family" class="family">For a family member</option>
+							<option value="myself" class="myself">For myself</option>
+							<option value="other" class="other">Other</option>
+						</select>
 
-				<div class="eight columns">
-					<textarea class="story" placeholder="Any material preferences?"></textarea>
-				</div>
-			</div>			
-
-		</div>
-
-
-		<!-- SECTION 5: CONTACT INFO -->
-		<div id="contact-info" class="row">
-			<h2 class="step-title">Keep in touch!</h2>
-
-			<p>
-				Sounds like we are really on to something here! Let's keep in touch!
-			</p>
-
-			<form>
-				<div class="seven columns">
-					<input type="text" placeholder="Name" required>
-					<input type="email" placeholder="Email" required>
-					<input type="tel" placeholder="Phone Number (Optional)">
-					<input type="text" placeholder="Address (Optional)">
-					<textarea placeholder="If we've missed anything let us know!"></textarea>
-				</div>
-
-				<div class="five columns">
-					<div class="face">
-						<img src="./img/customs/placeholder-head.svg" class="happyface" alt=""/>
+						<div class="otherBox">
+							<input name="otherField" type="text" placeholder="If Other..." />
+							<div class="row">
+								<p id="otherNext" class="sendButton"><button type="submit">Next</button></p>
+							</div>
+						</div>
 					</div>
 				</div>
 
-				<div class="row">
-					<p id="sendButton">
-						<button type="submit">Send</button>
-					</p>
-				</div>
-			</form>		    
-		</div>
 
+				<!-- SECTION 3: WHAT KIND OF JEWELRY -->
+				<div id="what" class="row">
+
+					<h2 class="step-title">What are you looking for?</h2>
+
+					<div class="three columns">
+					  	<label class="radio" for="jwl1">
+							<input class="jwl" id="jwl1" type="radio" name="jewelry-type" value="big" />
+							<img src="./img/customs/necklace-icon.svg" class="img-link" alt="" />
+						</label>
+						<p class="jewelry">Necklace</p>
+					</div>
+
+					<div class="three columns">
+					  	<label class="radio" for="jwl2">
+							<input class="jwl" id="jwl2" type="radio" name="jewelry-type" value="big" />
+							<img src="./img/customs/bracelet-icon.svg" class="img-link" alt="" />
+						</label>
+						<p class="jewelry">Bracelet</p>
+					</div>
+
+					<div class="three columns">
+					  	<label class="radio" for="jwl3">
+							<input class="jwl" id="jwl3" type="radio" name="jewelry-type" value="big" />
+							<img src="./img/customs/ring-icon.svg" class="img-link" alt="" />
+						</label>
+						<p class="jewelry">Ring</p>
+					</div>
+
+					<div class="three columns">
+					  	<label class="radio" for="jwl4">
+							<input class="jwl" id="jwl4" type="radio" name="jewelry-type" value="big" />
+							<img src="./img/customs/charm-icon.svg" class="img-link" alt="" />
+						</label>
+						<p class="jewelry">Charm</p>
+					</div>
+				</div>
+
+
+				<!-- SECTION 4: WHAT IS YOUR STORY -->
+				<div id="why" class="row">
+
+					<h2 class="step-title">Have a story to tell?</h2>
+
+					<p class="message">
+						Here's your chance! As a creative, I'm always interested in the story behind every piece. Here we can talk about the inspiration behind the piece.
+					</p>
+
+					<div class="row">
+						<div class="four columns">
+							<p class="story-desc">
+								Care to share your story with me? I want to know why you want this piece created.
+							</p>
+						</div>
+
+						<div class="eight columns">
+							<textarea class="story" placeholder="Share a story with me!"></textarea>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="four columns">
+							<p class="story-desc">
+								Color is very inspirational! It gives me a sense of direction.
+							</p>
+						</div>
+
+						<div class="eight columns">
+							<textarea class="story" placeholder="Let's talk color!"></textarea>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="four columns">
+							<p class="story-desc">
+								Do you have any material preferences? 
+							</p>
+						</div>
+
+						<div class="eight columns">
+							<textarea class="story" placeholder="Any material preferences?"></textarea>
+						</div>
+					</div>
+
+					<div class="row">
+						<p id="storyNext" class="sendButton"><button type="submit">Next</button></p>
+					</div>	
+
+				</div>
+
+
+				<!-- SECTION 5: CONTACT INFO -->
+				<div id="contact-info" class="row">
+					<h2 class="step-title">Keep in touch!</h2>
+
+					<div class="contactme">
+						<img src="./img/customs/contact.svg" alt="" />
+					</div>
+
+					<p class="message">
+						Sounds like we are really on to something here! Let's keep in touch! If I have any questions about your order, I will send you a message. :)
+					</p>
+
+
+					<form>
+						<div class="contact-form">
+							<input type="text" placeholder="Name" required>
+							<input type="email" placeholder="Email" required>
+							<input type="tel" placeholder="Phone Number (Optional)">
+							<input type="text" placeholder="Address (Optional)">
+							<textarea placeholder="If we've missed anything let us know!"></textarea>
+						</div>
+
+						<div class="row">
+							<p class="sendButton"><button type="submit">Send</button></p>
+						</div>
+					</form>					
+				</div><!-- END SECTION 5: CONTACT INFO -->
 			</section>
 
 		</section>
+		<!-- end content -->
+
+	</div>
+	<!-- end row width 90% -->
+
+
+	<!-- row width 90% -->
+	<div class="row footer-wrapper">
+	<footer class="row ninety" id="footer">
+			<div class="three columns">
+				<h3>Our Philosophy</h3>
+				<p class="tagline"><em>"Sharing stories with hand-crafted jewelry"</em><p>
+				<p>Here at Jaelle, we put a personal touch to our creations by hand-crafting each and every product.</p>
+				<a href="#">More about us! &rarr; </a>
+
+			</div>
+
+			<div class="three columns">
+				<h3>Latest update</h3>
+				<p>Swiiiish laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<p>
+				<a href="#">Read the rest! &rarr; </a>
+			</div>
+
+			<div class="three columns contact-links">
+				<h3>Contact Deets</h3>
+				<a id="cell" href="/"></a>
+				<p id="cell-num">778.870.4485</p>
+				
+				<a id="email" href="mailto:hello@jaelle.com"></a>
+				<p id="email-add"><a href="mailto:hello@jaelle.com">hello@jaelle.com</a></p>
+					
+				<a id ="fb" href="#" target="_top">facebook</a>
+				<p id="fb-link">
+					<a href="http://www.facebook.com">facebook.com/jaelle</a>
+				</p>
+				
+				<a id ="pntrst" href="#" target="_top">pinterest</a>
+				<p id="pinterest-link">
+					<a href="http://www.pinterest.com/jaeify">pinterest.com/jaelle</a>
+				</p>
+
+				<a id ="tmblr" href="#" target="_top">tumblr</a>
+				<p id="tumblr-link">
+					<a href="http://tumblr.com/jaelledesigns">tumblr.com/jaelle</a>
+				</p>
+			</div>
+
+			<div class="three columns">
+				<h3>Ready to get in touch?</h3>
+				<form action="form.php" method="get">
+		
+					<input type="email" name="email" placeholder="you@somewhere.com" />
+					<textarea name="comments" rows="8" cols="100" placeholder="Questions? Comments? Interesting fact? Quote of the day?"></textarea>
+
+					<a href="#" class="cta-button">Send</a></form>
+			</div>
+	</footer>
 	</div>
 
-</div>
+	<!-- 	<div class="js-bg-1 bg-container">
+				<h1>DIV ONE</h1>
 
-<!-- HTML5shiv.js from http://code.google.com/p/html5shiv/ for compatibility on older IE browsers -->
+
+			<div class="js-bg-2 bg-container">
+				<h1>DIV TWO</h1>
+			</div>
+			</div> 	
+	 -->
+
+	<!-- HTML5shiv.js from http://code.google.com/p/html5shiv/ for compatibility on older IE browsers -->
 	<script type="text/javascript" src="./js/html5shiv.js"></script> 
 	<script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="./js/main.js"></script>
-
-
+	<script type="text/javascript" src="./js/custom-order.js"></script>
 </body>
 
 </html>
