@@ -79,6 +79,9 @@ html, body {
     margin: 0px auto;
 }
 
+img {
+    width: 100%;
+}
 /* =========================================================
  * Text Styles
  * ========================================================= */
@@ -104,23 +107,6 @@ a, a:active, a:visited {
 
 a:hover {
     color: #FAC4B8;
-}
-
-/* =========================================================
- * Parallaxin
- * ========================================================= */
-
-.bg-container {
-    margin: 0;
-    padding: 200px 200px;
- }
-
-.js-bg-1 {
-    background: transparent url("../img/pebbles-bg.png") center 0 no-repeat;
-}
-
-.js-bg-2 {
-    background: transparent url("../img/pebbles-girl.png") center 0 no-repeat;
 }
 
 
@@ -184,7 +170,7 @@ nav {
 
 nav a {
     font-family: "Carrosserie";
-    font-size: 1.2em;
+    font-size: 1em;
     letter-spacing: 2px;
 }
 
@@ -216,48 +202,6 @@ nav a {
     z-index: 99;
 }
 
-
-
-/* nav 
-nav {
-    position: relative;
-    margin: 20px 0;
-}
-nav ul {
-    margin: 0;
-    padding: 0;
-}
-nav li {
-    margin: 0 5px 10px 0;
-    padding: 0;
-    list-style: none;
-    display: inline-block;
-}
-nav a {
-    padding: 3px 12px;
-    text-decoration: none;
-    color: #999;
-    line-height: 100%;
-}
-nav a:hover {
-    color: #000;
-}
-nav .current a {
-    background: #999;
-    color: #fff;
-    border-radius: 5px;
-}
-
-/* right nav 
-nav.right ul {
-    text-align: right;
-}
-
-/* center nav 
-nav.center ul {
-    text-align: center;
-}
-
 /* =========================================================
  * Content Title
  * ========================================================= */
@@ -266,7 +210,6 @@ nav.center ul {
     top: -110px;
 }
 .content-title {
-    background-color: rgba(255, 255, 255, 0.7);
     text-align: center;
     position: relative;
     z-index: -1;
