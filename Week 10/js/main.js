@@ -53,69 +53,81 @@ $(document).ready( function() {
 
 
 	// Code for nav
-	if ($(window).width() > 600) {
+	// if ($(window).width() > 600) {
 		
-		$(".primary").show();
-		$(".secondary").hide();
+	// 	$(".primary").show();
+	// 	$(".secondary").hide();
 
-		$(".drop").mouseenter( function() {
+	// 	$(".drop").mouseenter( function() {
 
-			$(".secondary").show();
+	// 		$(".secondary").show();
 
-		});
+	// 	});
 
-		$(".drop").mouseleave( function() {
+	// 	$(".drop").mouseleave( function() {
 
-			$(".secondary").hide();
-		});
-	}
+	// 		$(".secondary").hide();
+	// 	});
+	// }
 
-	else if ($(window).width() <= 600) {
+	// else if ($(window).width() <= 600) {
 
-		$("#nav-icon").click( function() {
+	// 	$("#nav-icon").click( function() {
 
-			$(".primary").fadeToggle(500);
-			$(".secondary").fadeToggle(500);
+	// 		$(".primary").fadeToggle(500);
+	// 		$(".secondary").fadeToggle(500);
 
-		});
-	}
+	// 	});
+	// }
 
 
+	$(".primary").show();
+	$(".secondary").hide();
 
-	$(window).resize(function(){
+
+	// $(window).resize(function(){
 		if ($(window).width() > 600){
 
-		$(".primary").show();
-		$(".secondary").hide();
+			$(".drop").mouseenter( function() {
+				$(".secondary").show();
+			});
 
-		$(".drop").mouseenter( function() {
+			$(".drop").mouseleave( function() {
+				$(".secondary").hide();
+			});
 
-			$(".secondary").show();
+		}
 
-		});
+		else if ($(window).width() <= 600){	
 
-		$(".drop").mouseleave( function() {
+			$(".primary").hide();
+			// $(".secondary").hide();
 
-			$(".secondary").hide();
-		});
-	}
-	});
-	
+			$("#nav-icon").click( function() {
 
-	$(window).resize(function(){
-		if ($(window).width() <= 600){	
+				$(".primary").fadeToggle(500);
+				$(".secondary").fadeToggle(500);
 
-		$(".primary").hide();
-		$(".secondary").hide();
-
-		$("#nav-icon").click( function() {
-
-			$(".primary").fadeToggle(500);
-			$(".secondary").fadeToggle(500);
-
-		});
+			});
 			
 		}
-	});
+	// });
+	
+
+	// $(window).resize(function(){
+		// else if ($(window).width() <= 600){	
+
+		// 	$(".primary").hide();
+		// 	$(".secondary").hide();
+
+		// 	$("#nav-icon").click( function() {
+
+		// 		$(".primary").fadeToggle(500);
+		// 		$(".secondary").fadeToggle(500);
+
+		// 	});
+			
+		// }
+	// });
 	
 });
