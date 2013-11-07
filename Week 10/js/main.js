@@ -25,6 +25,9 @@ $(document).ready( function() {
 	});  
 
 
+
+
+
 	// Code for Pop-up search
 	$(".searchBox").hide();
 
@@ -45,6 +48,10 @@ $(document).ready( function() {
 
 	});
 
+
+
+
+
 	// Code for nav
 	if ($(window).width() > 600) {
 		
@@ -62,6 +69,18 @@ $(document).ready( function() {
 			$(".secondary").hide();
 		});
 	}
+
+	else if ($(window).width() <= 600) {
+
+		$("#nav-icon").click( function() {
+
+			$(".primary").fadeToggle(500);
+			$(".secondary").fadeToggle(500);
+
+		});
+	}
+
+
 
 	$(window).resize(function(){
 		if ($(window).width() > 600){
@@ -81,20 +100,6 @@ $(document).ready( function() {
 		});
 	}
 	});
-
-	//media query
-	if ($(window).width() <= 600) {
-		
-		$(".primary").hide();
-		$(".secondary").hide();
-
-		$("#nav-icon").click( function() {
-
-			$(".primary").fadeToggle(500);
-			$(".secondary").fadeToggle(500);
-
-		});
-	}
 	
 
 	$(window).resize(function(){
