@@ -22,21 +22,21 @@ $(".otherBox").hide();
 	$("#forWho").change( function() { 
 
 		if($('#forWho').val()=="friend") {
-			$('html, body').animate({scrollTop:$('#what').position().top + 260}, 'slow');
+			$('html, body').animate({scrollTop:$('#what').position().top + 500}, 'slow');
 		}
 
 		else if($('#forWho').val()=="family") {
-			$('html, body').animate({scrollTop:$('#what').position().top + 260}, 'slow');
+			$('html, body').animate({scrollTop:$('#what').position().top + 500}, 'slow');
 		}
 
 		else if($('#forWho').val()=="myself") {
-			$('html, body').animate({scrollTop:$('#what').position().top + 260}, 'slow');
+			$('html, body').animate({scrollTop:$('#what').position().top + 500}, 'slow');
 		}
 	});
 
 	$("#otherNext").click( function() {
 
-		$('html, body').animate({scrollTop:$('#what').position().top + 260}, 'slow');
+		$('html, body').animate({scrollTop:$('#what').position().top + 500}, 'slow');
 
 	});
 
@@ -45,7 +45,7 @@ $(".otherBox").hide();
 	// scroll to next section
 	$(".jwl").click( function() {
 
-		$('html, body').animate({scrollTop:$('#why').position().top + 260}, 'slow');
+		$('html, body').animate({scrollTop:$('#why').position().top + 500}, 'slow');
 
 	});
 
@@ -55,7 +55,7 @@ $(".otherBox").hide();
 	// scroll to next section
 	$("#storyNext").click( function() {
 
-		$('html, body').animate({scrollTop:$('#contact-info').position().top + 260}, 'slow');
+		$('html, body').animate({scrollTop:$('#contact-info').position().top + 500}, 'slow');
 
 	});
 
