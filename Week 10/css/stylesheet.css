@@ -384,7 +384,7 @@ a.cta-button:hover {
  * Media Queries
  * ========================================================= */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
 /*    .column, .columns {
         float: none;
@@ -462,3 +462,7 @@ a.cta-button:hover {
     }
     
 }
+
+@media screen and (max-width: 600px) {
+
+            }

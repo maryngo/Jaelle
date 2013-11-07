@@ -13,18 +13,22 @@
         padding: 50px 30px;
 
         background: url("../img/circle1.png") no-repeat;
-        background-position: 0px 10px;
+        background-position: 3px -5px;
         background-size: 100%;
     }
 
     .desc1 h3, .desc2 h3 {
         font-size: 1.6em;
         letter-spacing: 3px;
-        margin: 20px 0 10px;
+        margin: 0px;
+
+        padding: 10px;
+
+        background: rgba(0,0,0,0.5);
     }
 
     .desc1 p, .desc2 p {
-        background-color: #fff;
+        background-color: rgba(255,255,255,0.8);
         color: #333;
         margin: 0;
         padding-left: 5px;
@@ -32,6 +36,12 @@
         font-size: 0.8em;
         text-transform: uppercase;
     }
+
+
+/*hide sm mobile img*/
+.mobile {
+    display:none;
+}
 
 /* Img 2 */
 #index-img2 {
@@ -46,7 +56,7 @@
         padding: 50px 30px;
 
         background: url("../img/circle1.png") no-repeat;
-        background-position: 0px 0px;
+        background-position: 0px -15px;
         background-size: 100%;
     }
 
@@ -112,14 +122,43 @@
 @media screen and (max-width: 600px) {
 
     /* makes kiwi bracelet chunk disappear */
-    .offset-one {
+/*    .offset-one {
     	display: none;
     }
     
     .offset-three {
     	display: none;
+    }*/
+
+    .desc1, .desc2 {
+        background: rgba(0,0,0,0.5);
+        padding: 10px;
+        margin: 10px 0 0 0;
+        width: 80%;
     }
+
+        .desc1 {
+            top: 10px;
+        }
+
+        .desc2 {
+            top: 450px;
+            right: 0;
+        }
+
+        .desc1 p, .desc2 p {
+            background: rgba(0,0,0,0);
+            color: #fff;
+        }
     
+    .mobile {
+        display:block;
+    }
+
+    .img1-big {
+        display:none;
+    }
+
     #index-promotion span{ 
         position:absolute; 
         width:100%;
