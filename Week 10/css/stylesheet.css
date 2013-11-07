@@ -164,7 +164,7 @@ img.search, img.cart {
 
  .cartBox {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     background-color: #333;
     margin-top: 10px;
  }
@@ -478,8 +478,16 @@ a.cta-button:hover {
     .secondary {
         display: block;
         padding: 10px 0;
-        background-color: #333;
+        background-color: rgba(0,0,0,0);
     }
+
+        a.secondary {
+            color: #FAC4B8;
+        }
+
+        a.secondary:hover {
+            color: #ffffff;
+        }
 
     .secondary-links {
         position: relative;
