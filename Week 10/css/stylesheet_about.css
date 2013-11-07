@@ -60,6 +60,10 @@ html, body {
 	margin-top: 100px;
 }
 
+.sub-header, .mat-header, .process-header, .socmed-header{
+	margin-left: 2%;
+}
+
 .mat-content{
 	padding-top: 2%;
 }
