@@ -189,7 +189,7 @@ select {
 
 select:focus {
 	outline:0;
-	outline:thin dotted 9;
+	/*outline: thin dotted;*/
 	border-color:#00A99D;
 }
 
@@ -280,3 +280,4 @@ input {
 		padding: 0;
 		margin: 0;
 	}
+}
