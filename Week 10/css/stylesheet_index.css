@@ -12,7 +12,7 @@
 
         padding: 50px 30px;
 
-        background: url("../img/circle1.png") no-repeat;
+        background: url("../img/circle3.png") no-repeat;
         background-position: 3px -5px;
         background-size: 100%;
     }
@@ -24,16 +24,19 @@
 
         padding: 10px;
 
-        background: rgba(0,0,0,0.5);
+        color: #333;
+
+        background: rgba(0,0,0,0);
     }
 
     .desc1 p, .desc2 p {
-        background-color: rgba(255,255,255,0.8);
+        background-color: rgba(255,255,255,0);
         color: #333;
         margin: 0;
-        padding-left: 5px;
+        padding-left: 10px;
 
-        font-size: 0.8em;
+        border-top: 1px solid #333333;
+        font-size: 1.2em;
         text-transform: uppercase;
     }
 
@@ -55,9 +58,9 @@
 
         padding: 50px 30px;
 
-        background: url("../img/circle1.png") no-repeat;
-        background-position: 0px -15px;
-        background-size: 100%;
+        background: url("../img/circle3.png") no-repeat;
+        background-position: 5px -7px;
+        background-size: 95%;
     }
 
 /* Pink Square*/
@@ -149,6 +152,11 @@
         .desc1 p, .desc2 p {
             background: rgba(0,0,0,0);
             color: #fff;
+        }
+
+        .desc1 h3, .desc2 h3 {
+            background: rgba(0,0,0,0);
+            padding: 5px;
         }
     
     .mobile {
