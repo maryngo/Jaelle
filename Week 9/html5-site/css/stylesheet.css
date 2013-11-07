@@ -140,10 +140,29 @@ header {
     background-color: ;
  } 
 
+<<<<<<< HEAD
  #logo-container img.logo {
     width: 13%;
     padding: 25px 0 15px;
+=======
+ header img.icon {
+    width: 25px;
+    margin: 20px 25px;
+    margin-bottom: 10px;
+>>>>>>> 5745c0115ac9dd4159de6e685858b491599a69f8
  }
+
+/* For the Cart box */
+.cartBox {
+  font-family: "Perspective Sans", sans-serif;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 4px; 
+  margin-bottom: 15px;
+  padding: .6em .6em .5em .6em;
+}
 
  /* =========================================================
  * Search and Cart
@@ -159,7 +178,186 @@ header {
  * ========================================================= */
 
 nav {
+<<<<<<< HEAD
     display: inline;
+=======
+    padding: 10px;
+    margin: 10px;
+    padding-bottom: 12.5px;
+    background-color: blue;
+    overflow: hidden;
+    position:relative; 
+    background-color:#00A99D; 
+    font-family: "Carrosserie Light", sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    z-index: 200;
+}  
+
+.block {
+  position: relative;
+  margin: 0 auto;
+  padding: 1.5em 1.25em;
+  max-width: 60em;
+}
+
+.close-btn {
+  display: block;
+  width: 2.625em;
+  height: 2.25em;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: #00A99D url("../img/close-icon.svg") left center no-repeat;
+  background-size: 1.875em 1.875em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 100%;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.no-svg .close-btn {
+  background-image: url("../img/close-icon.png");
+}
+.close-btn:focus, .close-btn:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.nav-btn {
+  display: block;
+  width: 2.625em;
+  height: 2.25em;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: #00A99D url("../img/menu-icon.svg") left center no-repeat;
+  background-size: 1.875em 1.875em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 100%;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.no-svg .nav-btn {
+  background-image: url("../img/menu-icon.png");
+}
+.nav-btn:hover, .nav-btn:focus {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+#outer-wrap {
+  position: relative;
+  /*overflow: hidden;*/
+  width: 100%;
+}
+
+#inner-wrap {
+  position: relative;
+  width: 100%;
+}
+
+#nav {
+  z-index: 200;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  color: #fff;
+}
+#nav .close-btn {
+  display: none;
+}
+
+#nav .block {
+  z-index: 2;
+  position: relative;
+  padding: 0.75em 1.25em;
+}
+
+#nav ul {
+  *zoom: 1;
+  /*display: block;*/
+  padding: 0;
+  margin: 0;
+}
+/*#nav ul:before, #nav ul:after {
+  content: "";
+  display: table;
+}*/
+#nav ul:after {
+  clear: both;
+  display: block;
+  height: 0;
+  content: "";
+  visibility: hidden;
+}
+
+#nav li {
+  /*display: block;*/
+  position: relative;
+  list-style-type: none;
+  margin-right: 10px;
+  width: 18%;
+  text-align: center;
+}
+
+#nav li a {
+  display: block;
+  color: #fff;
+/*  font-size: 0.875em;
+  line-height: 1.28571em;
+  font-weight: bold;
+  outline: none;*/
+}
+#nav li a:focus, #nav li a:hover {
+  color: #FAC4B8;
+  outline: none;
+}
+
+#nav li.is-active a {
+  color: #fff;
+}
+
+#top {
+  z-index: 100;
+  position: relative;
+  color: #fff;
+}
+
+#top .nav-btn {
+  position: absolute;
+  top: 1.5em;
+  left: 1.875em;
+}
+
+nav li:first-child a { 
+    border-left:none; 
+}  
+
+nav li.last a { 
+    border-right:none; 
+}  
+
+nav a span { 
+    display:block; 
+    float:right; 
+    margin-left:0px;
+}
+
+nav ul ul { 
+    display:none; 
+    /*width:100%; */
+    position:absolute; 
+    left:0; 
+    background:#6a6a6a; 
+}  
+
+#nav ul ul li { 
+    float:none; 
+>>>>>>> 5745c0115ac9dd4159de6e685858b491599a69f8
     text-align: center;
     padding: 13px 0px 10px;
 }

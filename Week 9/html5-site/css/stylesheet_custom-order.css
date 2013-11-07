@@ -56,13 +56,13 @@ html, body {
 	width: 100%;
 }
 
-#intro-message {
+.message {
 	/*font-size: 1.3em;*/
 	margin: auto;
 	width: 70%;
 	/*border: 1px solid red;*/
 	text-align: center;
-	padding-top: 30px;
+	/*padding-top: 10px;*/
 	padding-bottom: 50px;
 }
 
@@ -70,7 +70,7 @@ html, body {
 	color: #00A99D;
 	font-size: 1.5em;
 	text-align: center;
-	padding-bottom: 20px;
+	padding-bottom: 50px;
 	}
 
 
@@ -103,10 +103,9 @@ html, body {
 /* =========================================================
  * Contact Form Elements CSS
  * ========================================================= */
-.face {
-	width: 90%;
-	/*margin-left: 50px;*/
-}
+/*.face {
+	height: 10%;
+}*/
 
 input[type=text],
 input[type=email],
@@ -152,7 +151,12 @@ input[type=checkbox]:focus {
 }
 
 
-#sendButton {
+
+/* =========================================================
+ * Send Button CSS
+ * ========================================================= */
+
+.sendButton {
 	margin: auto;
 	text-align: center;
 	padding-top: 30px;
@@ -202,6 +206,21 @@ input[type=radio]:hover + img {
 	opacity: 1;
 }
 
+.forWho {
+	width: 50%;
+	margin: auto;
+}
+
+.contact-form {
+	width: 50%;
+	margin: auto;
+}
+
+.present, .contactme {
+	width: 25%;
+	margin: auto;
+	margin-bottom: 20px;
+}
 
 /*reset CSS*/
 ul,li { 
