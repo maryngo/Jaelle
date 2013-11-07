@@ -74,7 +74,14 @@ html, body {
 	padding-bottom: 50px;
 	}
 
-
+h3 {
+	color: #777;
+	margin: auto;
+	padding: 10px 0px;
+	letter-spacing: 2px;
+	font-size: 0.9em;
+	text-align: center;
+	}
 
 /* =========================================================
  * Customs Sections CSS
