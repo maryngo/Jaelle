@@ -346,6 +346,28 @@ a.cta-button:hover {
     margin-right: 10px;
 }
 
+#email{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url('../img/about/email.png') right bottom;
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    float: left;
+    margin-right: 10px;
+}
+
+#cell{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url('../img/about/cell.png') right bottom;
+    background-repeat: no-repeat;
+    text-indent: -99999px;
+    float: left;
+    margin-right: 10px;  
+}
+
 #fb {
         display: block;
         width: 30px;
