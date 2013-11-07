@@ -14,11 +14,13 @@ html, body {
 .content {
 	padding: 10px 30px 100px 30px;
 	margin: 0 10px;
-	background-color: rgba(255, 255, 255, 0.7);
+	/*background-color: rgba(255, 255, 255, 0.7);*/
 }
 	
 .content p, h1, h2, h3 {
- 		color: #333333;
+ 		/*color: #333333;*/
+ 		color: #e8e8e8;
+
  }
 	
 .category-header {
