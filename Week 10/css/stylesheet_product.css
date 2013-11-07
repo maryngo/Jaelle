@@ -53,6 +53,8 @@ html, body {
 }
 
 .specs{
+	width: 30px;
+	height: 100%;
 	padding-top: 10px;
 }
 
