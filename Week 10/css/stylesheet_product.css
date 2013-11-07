@@ -219,9 +219,12 @@ input[type=checkbox]:focus {
 /* Smartphones */
 @media only screen
 and (max-width: 480px) {
+	/*
 	.column, .columns {
 		float: none;
 	}
+	*/
+	
 	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
 		width: 100%;
 	}	
