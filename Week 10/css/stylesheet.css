@@ -322,10 +322,66 @@ a.cta-button {
     color: #00A99D;
 }
 
-    a.cta-button:hover {
-        color: #ffffff;
-        background-color: #00A99D;
-    }
+a.cta-button:hover {
+    color: #ffffff;
+    background-color: #00A99D;
+}
+
+#cell, #email{
+    float: left;
+    margin-right: 10px;
+}
+
+#fb {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: url('../img/about/fb.png') right bottom;
+        background-repeat: no-repeat;
+        text-indent: -99999px;
+        float: left;
+        margin-right: 10px;
+
+}
+    
+#fb:hover {
+    background-position: right top;
+}
+
+#tmblr {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: url('../img/about/tmblr.png') right bottom;
+        background-repeat: no-repeat;
+        text-indent: -99999px;
+        float: left;
+        margin-right: 10px;
+}
+    
+#tmblr:hover {
+    background-position: right top;
+}
+
+#pntrst {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: url('../img/about/pntrst.png') right bottom;
+        background-repeat: no-repeat;
+        text-indent: -99999px;
+        float: left;
+        margin-right: 10px;
+}
+    
+#pntrst:hover {
+    background-position: right top;
+}
+
+#fb-link, #tumblr-link, #pinterest-link, #cell-num, #email-add{
+    padding: 10px 10px 10px 20px;
+}
+
 /* =========================================================
  * Media Queries
  * ========================================================= */
