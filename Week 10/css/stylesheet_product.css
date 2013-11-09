@@ -96,24 +96,29 @@ html, body {
 	
 .image-gallery li {
 	float:left;
-  	/*background-color:rgba(255,255,255,0);*/
 	width: 25%;
 	text-align: center;
 	
 	}
 
-.image-gallery li a {
-	transition: all 0.5s;
+.image-gallery li {
 	opacity: 0.5;
 
 }
   	
-.image-gallery li a:hover {
+.image-gallery li:hover {
+	transition: all 0.5s;
 	opacity: 1;
 	}
 
-.img-link:hover{
-	border: 5px solid #00A99D;
+/*.eventHover:hover {
+	opacity: 1;
+}*/
+
+.selected {
+	opacity: 1 !important;
+	outline: 5px solid #00A99D;
+	outline-offset: -5px;
 }
 
 .img-link {
@@ -121,25 +126,32 @@ html, body {
 	border: 5px solid #aaa;    
 	}
 
-.img-link img:active {
+/*.img-link:hover{
+	opacity: 1;
+	border: 5px solid #00A99D;
+}*/
+
+
+/*.img-link img:active {
 	display: block;
 	border: 5px solid #00A99D;
-}
+}*/
 
-#one:target ~ li a[href="#one"],
+/*#one:target ~ li a[href="#one"],
 #two:target ~ li a[href="#two"],
 #three:target ~ li a[href="#three"],
 #four:target ~ li a[href="#four"],
 #five:target ~ li a[href="#five"] {
   opacity: 1;
   border: 5px solid #00A99D;
-}
+}*/
 
 /*reset CSS*/
 .image-gallery ul,li { 
 	list-style:none;
 	padding:0;
 	}
+
 
 
 /* =========================================================
