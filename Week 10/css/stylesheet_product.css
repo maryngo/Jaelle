@@ -54,9 +54,23 @@ html, body {
 
 .specs{
 	width: 30px;
-	height: 100%;
-	padding-top: 10px;
+	/*height: 100%;*/
 }
+
+.spec-icon {	
+	margin-right: 10px;
+}
+
+.desc {
+	margin-bottom: 20px;
+}
+
+.product-blogpost {
+	font-style: italic;
+	margin-bottom: 40px;
+}
+
+
 
 /* =========================================================
  * Product Images Gallery
@@ -176,52 +190,6 @@ html, body {
  	color: #fff;
  }
 
-
-/* Add quantity */
-input[type=text],
-input[type=email],
-input[type=search],
-input[type=tel],
-select,
-textarea {
-	font-family: "Perspective Sans", sans-serif; 
-	width: 100%;
-	margin-bottom: 15px;
-	padding: .6em .6em .5em .6em;
-	display: inline-block;
-	border: 1px solid #ccc;
-	font-size: 1em;
-	box-shadow: inset 0 1px 3px #ddd;
-	border-radius: 4px;
-	-webkit-transition: .3s linear border;
-	-moz-transition: .3s linear border;
-	-ms-transition: .3s linear border;
-	-o-transition: .3s linear border;
-	transition: .3s linear border;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-/* When an input box is in focus, highlight it in teal */
-input[type=text]:focus,
-input[type=email]:focus,
-input[type=search]:focus,
-input[type=tel]:focus,
-select:focus,
-textarea:focus {
-	outline:0;
-	/*outline:thin dotted \9;*/
-	outline: thin dotted #333; /*is this what the previous line was supposed to be?*/
-	border-color:#00A99D;
-}
-
-input[type=file]:focus
-input[type=radio]:focus,
-input[type=checkbox]:focus {
-	outline: thin dotted #333;
-	outline: 1px auto #00A99D;
-}
 
 	
 /* =========================================================
