@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$(".eventHover a").click(function(thumb) {
 
-		thumb.preventDefault();
+		// thumb.preventDefault();
 
 		//remove the highlight on previous selected item
 		$(".select").removeClass("selected");

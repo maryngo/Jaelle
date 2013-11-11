@@ -303,10 +303,10 @@ a.cta-button:hover {
     background-color: rgba(0, 0, 0, 0);
 }
 
-#cell, #email{
+/*#cell, #email{
     float: left;
     margin-right: 10px;
-}
+}*/
 
 #email{
     display: block;
@@ -319,6 +319,10 @@ a.cta-button:hover {
     margin-right: 10px;
 }
 
+#email:hover {
+    background-position: right top;
+}
+
 #cell{
     display: block;
     width: 30px;
@@ -328,6 +332,10 @@ a.cta-button:hover {
     text-indent: -99999px;
     float: left;
     margin-right: 10px;  
+}
+
+#cell:hover {
+    background-position: right top;
 }
 
 #fb {
