@@ -1,5 +1,7 @@
 $(document).ready( function() {
 
+var comp = 520;
+
 $(".otherBox").hide();
 
 	$("#forWho").change( function() {  
@@ -22,21 +24,21 @@ $(".otherBox").hide();
 	$("#forWho").change( function() { 
 
 		if($('#forWho').val()=="friend") {
-			$('html, body').animate({scrollTop:$('#what').position().top + 500}, 'slow');
+			$('html, body').animate({scrollTop:$('#what').position().top + comp}, 'slow');
 		}
 
 		else if($('#forWho').val()=="family") {
-			$('html, body').animate({scrollTop:$('#what').position().top + 500}, 'slow');
+			$('html, body').animate({scrollTop:$('#what').position().top + comp}, 'slow');
 		}
 
 		else if($('#forWho').val()=="myself") {
-			$('html, body').animate({scrollTop:$('#what').position().top + 500}, 'slow');
+			$('html, body').animate({scrollTop:$('#what').position().top + comp}, 'slow');
 		}
 	});
 
 	$("#otherNext").click( function() {
 
-		$('html, body').animate({scrollTop:$('#what').position().top + 500}, 'slow');
+		$('html, body').animate({scrollTop:$('#what').position().top + comp}, 'slow');
 
 	});
 
@@ -45,7 +47,7 @@ $(".otherBox").hide();
 	// scroll to next section
 	$(".jwl").click( function() {
 
-		$('html, body').animate({scrollTop:$('#why').position().top + 500}, 'slow');
+		$('html, body').animate({scrollTop:$('#why').position().top + comp}, 'slow');
 
 	});
 

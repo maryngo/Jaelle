@@ -35,13 +35,15 @@ html, body {
 }
 	
 .product-name {
-	font-size: 2em;
+	font-size: 3em;
+	color: rgb(244, 136, 113);
+	border-bottom: 1px solid #444;
+	padding-bottom: 40px;
 }
 	
 .product-price {
-	font-size: 1.5em;
-	border-bottom: 1px solid #000000;
-	padding-bottom: 20px;
+	/*font-size: 1.5em;*/
+	/*color: #aaa;*/
 }
 	
 .more-products {
@@ -95,13 +97,13 @@ html, body {
 	}
 	
 /*Selected image display*/
-.image-gallery .big-image img:target { display:block; }
+/*.image-gallery .big-image img:target { display:block; }*/
 
 /*on select image display none the default image*/
-.image-gallery .big-image img:target ~ img#default { display:none; }
+/*.image-gallery .big-image img:target ~ img#default { display:none; }*/
 
 /*Show Default Image in first load*/
-.image-gallery .big-image img#default { display:block; }
+/*.image-gallery .big-image img#default { display:block; }*/
 
 
 .image-gallery ul { 
@@ -125,40 +127,17 @@ html, body {
 	opacity: 1;
 	}
 
-/*.eventHover:hover {
-	opacity: 1;
-}*/
-
 .selected {
-	opacity: 1 !important;
+	opacity: 1;
 	outline: 5px solid #00A99D;
 	outline-offset: -5px;
 }
 
 .img-link {
 	width: 90%;
-	border: 5px solid #aaa;    
+	/*border: 5px solid transparent;*/
 	}
 
-/*.img-link:hover{
-	opacity: 1;
-	border: 5px solid #00A99D;
-}*/
-
-
-/*.img-link img:active {
-	display: block;
-	border: 5px solid #00A99D;
-}*/
-
-/*#one:target ~ li a[href="#one"],
-#two:target ~ li a[href="#two"],
-#three:target ~ li a[href="#three"],
-#four:target ~ li a[href="#four"],
-#five:target ~ li a[href="#five"] {
-  opacity: 1;
-  border: 5px solid #00A99D;
-}*/
 
 /*reset CSS*/
 .image-gallery ul,li { 
