@@ -271,11 +271,11 @@ input {
 	} 
 
 	.featured {
-		width: 100%;
+		width: 96.5%;
 	}
 
 	.big-box img {
-		width: 96.5%;
+		/*width: 96.5%;*/
 		float: left;
 		margin-bottom: 0;
 	}
