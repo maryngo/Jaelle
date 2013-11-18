@@ -5,9 +5,6 @@
 	
 	<title>Jaelle | Bracelets Collections</title>
 
- 	<script src="./js/modernizr.js"></script>
-
-
 	<!-- stylesheets -->
 	<link rel="stylesheet" type="text/css" href="css/grid.css" />
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
@@ -16,12 +13,7 @@
 	<!-- javascrip -->
 	<!-- HTML5shiv.js from http://code.google.com/p/html5shiv/ for compatibility on older IE browsers -->
 	<script type="text/javascript" src="js/html5shiv.js"></script>
-
-	<!--[if lt IE 9]>
-	<script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]--> 
-
+	<script src="./js/modernizr.js"></script>
 </head>
 
 <body>
@@ -117,12 +109,6 @@
 		<!-- content -->
 		<section class="content">
 
-			<!-- Content Header -->
-<!-- 			<section class="page-title">
-				<h1 class="category-header">&mdash; <strong>Bracelets</strong> Yourselves! &mdash;</h1>
-			</section> -->
-			<!-- End Content Header -->
-
 			<!-- Body Content -->
 			<section class="body-content">
 
@@ -131,7 +117,7 @@
 				<!-- END BREADCRUMBS -->
 
 				<!-- FILTERS -->
-				<div class="row twelve columns">
+				<div class="row twelve columns collections">
 					<select class="filter" id="price">
 						<option value="title" class="default-price">By Price</option>
 						<option value="10" class="und_10">$10 and under</option>
@@ -157,37 +143,37 @@
 				<!-- END FILTERS -->
 
 				<!-- PRODUCT PHOTOS GRID -->
-				<!-- <div class="row"> -->
 
-					<!-- BIG PHOTO -->
+				<div class="row collections">
 					
-					<div class="six columns item">
+
+					<!-- FEATURED PRODUCT -->
+					<div class="row featured">
+					<div class="item">
 						<div class="bigmoney">
-							<div class="big-box">
+							<div class="six columns big-box">
 								<a href="snake-bracelet.html">
-									<img src="img/product1.jpg" alt=""/>
-									<div class="caption">
-										<h3>Snake</h3>
-										<p>Add a shimmer and shine to your little black dress with this stunning snake-like bracelet.</p>
-									</div>
+									<img src="img/product4.jpg" alt=""/>
 								</a>
 							</div>
 
-							<div class="desc big-desc">		
+							<div class="six columns feat-desc">
+
+								<img src="img/customs/bracelet-icon.svg" class="bracelet-icon" alt="bracelet icon"/>
+
 								<h2>Snake Bracelet &mdash; <span class="price">$1234</span></h2>
+
+								<p>Add shimmer and shine to your little black dress with this stunning snake-like bracelet.</p>
 							</div>
 						</div>
 					</div>
-					<!-- END BIG PHOTO -->
-
-					<!-- SMALL PHOTOS 1x2 -->
-
-
+					</div>
+					
 
 
 					<!-- 1 -->
 					<div class="three columns item">
-						<div class="price_10">
+						<div class="norm price_10">
 							<div class="box">
 								<a href="snake-bracelet.html">
 									<img src="img/product2.jpg" alt=""/>
@@ -195,7 +181,8 @@
 							</div>
 
 							<div class="desc small">		
-								<h3>1 Snake Bracelet &mdash; <span class="price">$10</span></h3>
+								<h3>1 Snake Bracelet</h3>
+								<p class="price">&mdash; $10 &mdash;</p>
 							</div>
 						</div>
 					</div>
@@ -204,15 +191,16 @@
 
 					<!-- 2 -->
 					<div class="three columns item">
-						<div class="price_50">
+						<div class="norm price_50">
 							<div class="box">
 								<a href="snake-bracelet.html">
-									<img src="img/product2.jpg" alt=""/>
+									<img src="img/product3.jpg" alt=""/>
 								</a>
 							</div>
 
 							<div class="desc small">		
-								<h3>2 Snake Bracelet &mdash; <span class="price">$50</span></h3>
+								<h3>2 Snake Bracelet &mdash; </h3>
+								<p class="price">&mdash; $50 &mdash;</p>
 							</div>
 						</div>
 					</div>
@@ -221,15 +209,16 @@
 
 					<!-- 3 -->
 					<div class="three columns item">
-						<div class="price_100">
+						<div class="norm price_100">
 							<div class="box">
 								<a href="snake-bracelet.html">
-									<img src="img/product2.jpg" alt=""/>
+									<img src="img/product4.jpg" alt=""/>
 								</a>
 							</div>
 
 							<div class="desc small">		
-								<h3>3 Snake Bracelet &mdash; <span class="price">$100</span></h3>
+								<h3>3 Snake Bracelet &mdash; </h3>
+								<p class="price">&mdash; $100 &mdash;</p>
 							</div>
 						</div>
 					</div>
@@ -238,15 +227,16 @@
 
 					<!-- 4 -->
 					<div class="three columns item">
-						<div class="price_10">
+						<div class="norm price_10">
 							<div class="box">
 								<a href="snake-bracelet.html">
-									<img src="img/product2.jpg" alt=""/>
+									<img src="img/product5.jpg" alt=""/>
 								</a>
 							</div>
 
 							<div class="desc small">		
-								<h3>4 Snake Bracelet &mdash; <span class="price">$10</span></h3>
+								<h3>4 Snake Bracelet &mdash; </h3>
+								<p class="price">&mdash; $10 &mdash;</p>
 							</div>
 						</div>
 					</div>
@@ -255,15 +245,16 @@
 
 					<!-- 5 -->
 					<div class="three columns item">
-						<div class="price_50">
+						<div class="norm price_50">
 							<div class="box">
 								<a href="snake-bracelet.html">
-									<img src="img/product2.jpg" alt=""/>
+									<img src="img/product1.jpg" alt=""/>
 								</a>
 							</div>
 
 							<div class="desc small">		
-								<h3>5 Snake Bracelet &mdash; <span class="price">$50</span></h3>
+								<h3>5 Snake Bracelet &mdash; </h3>
+								<p class="price">&mdash; $50 &mdash;</p>
 							</div>
 						</div>
 					</div>
@@ -272,7 +263,7 @@
 
 					<!-- 6 -->
 					<div class="three columns item">
-						<div class="price_100">
+						<div class="norm price_100">
 							<div class="box">
 								<a href="snake-bracelet.html">
 									<img src="img/product2.jpg" alt=""/>
@@ -280,7 +271,8 @@
 							</div>
 
 							<div class="desc small">		
-								<h3>6 Snake Bracelet &mdash; <span class="price">$100</span></h3>
+								<h3>6 Snake Bracelet &mdash; </h3>
+								<p class="price">&mdash; $100 &mdash;</p>
 							</div>
 						</div>
 					</div>
@@ -289,15 +281,16 @@
 
 					<!-- 7 -->
 					<div class="three columns item">
-						<div  class="price_10">
+						<div  class="norm price_10">
 							<div class="box">
 								<a href="snake-bracelet.html">
-									<img src="img/product2.jpg" alt=""/>
+									<img src="img/product3.jpg" alt=""/>
 								</a>
 							</div>
 
 							<div class="desc small">		
-								<h3>7 Snake Bracelet &mdash; <span class="price">$10</span></h3>
+								<h3>7 Snake Bracelet &mdash; </h3>
+								<p class="price">&mdash; $10 &mdash;</p>
 							</div>
 						</div>
 					</div>
@@ -306,15 +299,16 @@
 
 					<!-- 8 -->
 					<div class="three columns item">
-						<div class="price_50">
+						<div class="norm price_50">
 							<div class="box">
 								<a href="snake-bracelet.html">
-									<img src="img/product3.jpg" alt=""/>
+									<img src="img/product4.jpg" alt=""/>
 								</a>
 							</div>
 
 							<div class="desc small">		
-								<h3>8 Snake Bracelet &mdash; <span class="price">$50</span></h3>
+								<h3>8 Snake Bracelet &mdash; </h3>
+								<p class="price">&mdash; $50 &mdash;</p>
 							</div>
 						</div>
 					</div>
@@ -323,15 +317,16 @@
 
 					<!-- 9 -->
 					<div class="three columns item">
-						<div class="price_100">
+						<div class="norm price_100">
 							<div class="box">
 								<a href="snake-bracelet.html">
-									<img src="img/product1.jpg" alt=""/>
+									<img src="img/product5.jpg" alt=""/>
 								</a>
 							</div>
 
 							<div class="desc small">		
-								<h3>9 Snake Bracelet &mdash; <span class="price">$100</span></h3>
+								<h3>9 Snake Bracelet &mdash; </h3>
+								<p class="price">&mdash; $100 &mdash;</p>
 							</div>
 						</div>
 					</div>
@@ -340,15 +335,16 @@
 
 					<!-- 10 -->
 					<div class="three columns item">
-						<div class="price_10">
+						<div class="norm price_10">
 							<div class="box">
 								<a href="snake-bracelet.html">
-									<img src="img/product2.jpg" alt=""/>
+									<img src="img/product1.jpg" alt=""/>
 								</a>
 							</div>
 
 							<div class="desc small">		
-								<h3>10 Snake Bracelet &mdash; <span class="price">$10</span></h3>
+								<h3>10 Snake Bracelet &mdash; </h3>
+								<p class="price">&mdash; $10 &mdash;</p>
 							</div>
 						</div>
 					</div>
@@ -357,15 +353,16 @@
 
 					<!-- 11 -->
 					<div class="three columns item">
-						<div class="price_50">
+						<div class="norm price_50">
 							<div class="box">
 								<a href="snake-bracelet.html">
-									<img src="img/product3.jpg" alt=""/>
+									<img src="img/product2.jpg" alt=""/>
 								</a>
 							</div>
 
 							<div class="desc small">		
-								<h3>11 Snake Bracelet &mdash; <span class="price">$50</span></h3>
+								<h3>11 Snake Bracelet &mdash; </h3>
+								<p class="price">$50</p>
 							</div>
 						</div>
 					</div>
@@ -374,21 +371,21 @@
 
 					<!-- 12 -->
 					<div class="three columns item">
-						<div class="price_100">
+						<div class="norm price_100">
 							<div class="box">
 								<a href="snake-bracelet.html">
-									<img src="img/product1.jpg" alt=""/>
+									<img src="img/product3.jpg" alt=""/>
 								</a>
 							</div>
 
 							<div class="desc small">		
-								<h3>12 Snake Bracelet &mdash; <span class="price">$100</span></h3>
+								<h3>12 Snake Bracelet</h3>
+								<p class="price">&mdash; $100 &mdash;</p>
 							</div>
 						</div>
-
 					</div>
-					<!-- END SMALL PHOTOS 1x2 -->
-				<!-- </div> -->
+
+				</div>
 
 			</section>
 		</section>
@@ -399,6 +396,10 @@
 
 
 	<!-- row width 90% -->
+	<!-- //////////////////// -->
+	<!-- ////// FOOTER ////// -->
+	<!-- //////////////////// -->
+
 	<div class="row footer-wrapper">
 	<footer class="row ninety" id="footer">
 			<div class="three columns">
