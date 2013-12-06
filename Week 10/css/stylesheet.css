@@ -443,8 +443,13 @@ a.cta-button:hover {
         padding: 0;
     }
 
+    #regularnav {
+        display: none;
+    }
+
     .primary {
         margin-top: 0px;
+        display: none;
     }
 
     .drop {
@@ -462,7 +467,3 @@ a.cta-button:hover {
     }
     
 }
-
-@media screen and (max-width: 600px) {
-
-            }
