@@ -68,13 +68,13 @@ html, body {
 }
 
 .step-title {
-	color: #00A99D;
+	color: #F48871;
 	font-size: 1.5em;
 	text-align: center;
 	padding-bottom: 50px;
 	}
 
-h3 {
+h3.step-position {
 	color: #777;
 	margin: auto;
 	padding: 10px 0px;
@@ -121,6 +121,7 @@ input[type=search],
 input[type=tel],
 select,
 textarea {
+	background-color: #E6E6E6;
 	font-family: "Perspective Sans", sans-serif; 
 	width: 100%;
 	margin-bottom: 15px;
@@ -147,15 +148,15 @@ input[type=search]:focus,
 input[type=tel]:focus,
 select:focus,
 textarea:focus {
-	outline:0;
-	border-color:#00A99D;
+	outline: 0;
+	border-color:#F48871;
 }
 
 input[type=file]:focus
 input[type=radio]:focus,
 input[type=checkbox]:focus {
 	outline: thin dotted #333;
-	outline: 1px auto #00A99D;
+	outline: 1px auto #F48871;
 }
 
 
@@ -176,7 +177,7 @@ button {
 	font-family: "Perspective Sans", sans-serif;
 	font-size: 100%;
  	padding: 10px;
- 	border: 2px solid #00A99D;
+ 	border: 2px solid #F48871;
  	width: 20%;
  	text-align: center;
  	margin: auto;
@@ -184,7 +185,7 @@ button {
 
 
 button:hover {
- 	background-color: #00A99D;
+ 	background-color: #F48871;
  	color: #fff;
 }
 
@@ -205,12 +206,12 @@ input[type=radio] + img{
 }
 
 input[type=radio]:checked + img{
-	border:5px solid #00A99D;
+	border:5px solid #F48871;
 	opacity: 1;
 }
 
 input[type=radio]:hover + img {
-	border: 5px solid #00A99D;
+	border: 5px solid #F48871;
 	opacity: 1;
 }
 

@@ -42,7 +42,8 @@ html, body {
 .bold {
 	font-weight: bold;
 	}
-	
+
+
 /* =========================================================
  * Filters
  * ========================================================= */
@@ -71,95 +72,95 @@ a.button {
  * Product Images
  * ========================================================= */
 
+
+.bracelet-icon {
+	width: 50%;
+}
+
+ .collections {
+ 	/*background-color: red;*/
+ 	/*padding-left: 15px;*/
+ 	padding-left: 15px;
+ }
+
 .columns {
-	position: relative;
-	}	
+	/*position: relative;*/
+	}
+
+.norm {
+	width: 93%;
+}
+
+.featured {
+	width: 98.25%;
+	height: 100%;
+	vertical-align: middle;
+	margin-bottom: 20px;
+	/*background-color: rgba(255,255,255,0.3);*/
+	background-color: rgba(0,0,0,0.3);
+}
 
 .big-box img {
-	width: 96%;
+	/*width: 48.25%;*/
 	float: left;
 	}
 
 .box img {
-	width: 93%;
+	/*width: 93%;*/
 	float: left;
 	}
 
-.caption {
-	background-color: rgba(0,0,0,0.7);
-	position: absolute;
-
-	width: 96%;
-	height: 40%;
-	left: 0;
-	top: 30%;
-
-	padding: 20px;
-	text-align: center;
-
-	opacity: 0;
+.box:hover {
+	opacity: 0.8;
 	}
-	
-	.caption h3, .caption p {
-		color: #ffffff;
-		}
-
-	.big-box:hover .caption {
-		opacity: 1;
-
-		-webkit-transition: all 300ms ease-out;  
-  		-moz-transition: all 300ms ease-out;  
-  		-o-transition: all 300ms ease-out;  
-  		-ms-transition: all 300ms ease-out;  
-  		transition: all 300ms ease-out;  
-		}
-
-	.box:hover {
-		opacity: 0.8;
-		}
 
 .desc {
 	float: left;
-	width: 93%;
-	background-color: rgba(255,255,255,0.3);
+	width: 100%;
+	/*background-color: rgba(255,255,255,0.3);*/
+	background-color: rgba(0,0,0,0.3);
 	text-align: center;
 	padding-left: 10px;
 	padding-right: 10px;
 	}
 
-	.big-desc {
-		float: left;
-		width: 96%;
-		}
+.feat-desc {
+	float: left;
+	margin-top: 5%;
+	/*background-color: rgba(255,255,255,0.3);*/
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
 
-	.desc h2 {
- 		color: #e8e8e8;
+/*	.big-desc {
+		float: left;
+		text-align: center;
+		width: 50%;
+		padding: 10px;
+		}*/
+
+	.feat-desc h2 {
+ 		color: #F48871;
 		letter-spacing: 3px;
-		margin: 0;
-		padding: 29px 0px;
+		font-size: 2em;
 		}
 
 .small {
-	margin-bottom: 14px;
+	margin-bottom: 20px;
 	}
 
 	.small h3 {
-		margin: 0;
-		padding: 10px 0px;
 		letter-spacing: 2px;
 		font-size: 0.9em;
 		}
 
-.price {
-/*	background-color: #333333;
-	color: #ffffff;*/
-
-	padding: 4px 0px;
-
+.small p {
+	color: #F48871;
 	font-weight: bold;
-
-/*	border: 1px solid #333333;
-*/	}
+	font-size: 1.5em;
+	line-height: 0em;
+	}
 
 
 /* =========================================================
@@ -237,7 +238,9 @@ input {
  }
 
 
-
+/* =========================================================
+ * Content Header (the one with the image)
+ * ========================================================= */
  .content-title-wrapper {
 	position: relative;
 	text-align: center;
@@ -263,6 +266,28 @@ input {
 
 @media screen and (max-width: 600px) {
 
+	.item {
+		width: 50%;
+	} 
+
+	.featured {
+		width: 96.5%;
+	}
+
+	.big-box img {
+		/*width: 96.5%;*/
+		float: left;
+		margin-bottom: 0;
+	}
+
+	.big-desc {
+		float: left;
+		width: 96.5%;
+		margin-top: 0;
+		margin-bottom: 20px;
+		padding: 10px;
+	}
+
 	.content-title {
 		display: none;
 	}
@@ -280,4 +305,17 @@ input {
 		padding: 0;
 		margin: 0;
 	}
+
+	.item {
+		display: inline;
+	}
+
+	.bracelet-icon {
+		display: none;
+	}
+
+/*	.norm {
+		width: 50%;
+	}*/
+
 }

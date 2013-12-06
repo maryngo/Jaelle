@@ -143,21 +143,21 @@
 								<img id="two" src="img/products/Bracelet-Snake2.jpg" alt="Bracelet Image2"/>
 								<img id="three" src="img/products/Bracelet-Snake3.jpg" alt="Bracelet Image3"/>
 								<img id="four" src="img/products/Bracelet-Snake4.jpg" alt="Bracelet Image4"/>
-								<img id="default" src="img/products/Bracelet-Snake1.jpg" alt="Bracelet Image"/>
+								<!-- <img id="default" src="img/products/Bracelet-Snake1.jpg" alt="Bracelet Image"/> -->
 							</div>
 	  			
 				  			<ul>
-								<li>
-								  <a href="#one"><img src="img/products/Bracelet-Snake1.jpg" alt="Bracelet Image1" class="img-link"/></a>
+								<li class="eventHover">
+									<a href="#one"><img src="img/products/Bracelet-Snake1.jpg" alt="Bracelet Image1" class="img-link select img1"/></a>
 								</li>
-								<li>
-								  <a href="#two"><img src="img/products/Bracelet-Snake2.jpg" alt="Bracelet Image2" class="img-link"/></a>
+								<li class="eventHover">
+									<a href="#two"><img src="img/products/Bracelet-Snake2.jpg" alt="Bracelet Image2" class="img-link select img2"/></a>
 								</li>
-								<li>
-								   <a href="#three"><img src="img/products/Bracelet-Snake3.jpg" alt="Bracelet Image3" class="img-link"/></a>
+								<li class="eventHover">
+									<a href="#three"><img src="img/products/Bracelet-Snake3.jpg" alt="Bracelet Image3" class="img-link select img3"/></a>
 								</li>
-								<li>
-								   <a href="#four"><img src="img/products/Bracelet-Snake4.jpg" alt="Bracelet Image4" class="img-link"/></a>
+								<li class="eventHover">
+									<a href="#four"><img src="img/products/Bracelet-Snake4.jpg" alt="Bracelet Image4" class="img-link select img4"/></a>
 								</li>
 							</ul>
 						</div>
@@ -165,32 +165,51 @@
 					</div>
 
 					<div class="product-text six columns">
-						<h2 class="product-name">Snake Bracelet</h2>
-						<h3 class="product-price">$14</h3>
+						<h2 class="product-name">Snake Bracelet &mdash; <strong class="product-price"> $14</strong></h2>
+						<!-- <h3 class="product-price">$14</h3> -->
 
 						<p class="product-blogpost">Check out <a href="http://www.jaelledesigns.tumblr.com">Behind the Scenes</a> on how we made this!</p>
 
 						<div class="description">
-							<p class="desc-materials">
-								<img class ="specs" src="img/about/materials.png" alt="Materials Icon"/><br>
-								<strong>Materials:</strong> Gold, silver and dark silver chainmail
-							</p>
+							<div class="row desc">
+								<div class="one column spec-icon">
+									<img class ="specs" src="img/about/materials.png" alt="Materials Icon"/>
+								</div>
 
-							<p class="desc-detailed">
-								<img class ="specs" src="img/about/description.png" alt="Description Icon"><br>
-								<strong>Description:</strong> Add a shimmer and shine to your little black dress with this stunning snake-like bracelet. Whether it's a girls' night out around town or just add a little oomph to your outfit, this piece adds a sparkle to your evening.
-							</p>
-							<p class="desc-measure">
-								<img class ="specs" src="img/about/measurements.png" alt="Measurements Icon"><br>
-								<strong>Length:</strong> 7.25"<br>
-								<strong>Width:</strong> 0.25"<br>
-								<strong>Weight:</strong> 6.2g
-							</p>
+								<div class="ten columns">
+									<strong>Materials:</strong> Gold, silver and dark silver chainmail
+								</div>
+							</div>
 
-							<div class="quantity">
+
+							<div class="row desc">
+								<div class="one column spec-icon">
+									<img class ="specs" src="img/about/description.png" alt="Description Icon">
+								</div>
+
+								<div class="ten columns">
+									<strong>Description:</strong> Add a shimmer and shine to your little black dress with this stunning snake-like bracelet. Whether it's a girls' night out around town or just add a little oomph to your outfit, this piece adds a sparkle to your evening.
+								</div>
+							</div>
+
+
+							<div class="row desc">
+								<div class="one column spec-icon">
+									<img class ="specs" src="img/about/measurements.png" alt="Measurements Icon">
+								</div>
+
+								<div class="ten columns">
+									<strong>Dimensions:</strong><br />
+									<strong>Length:</strong> 7.25"<br />
+									<strong>Width:</strong> 0.25"<br />
+									<strong>Weight:</strong> 6.2g
+								</div>
+							</div>
+
+<!-- 							<div class="quantity">
 								<p><label for="text">Quantity</label>
 								<input id="text" type="text" placeholder="0"></p>
-							</div>
+							</div> -->
 
 							<!-- Add to cart button -->
 							<a href=""><p class="buynow">Add to Cart</p></a>
@@ -201,9 +220,12 @@
 				<div class="row">
 					<div class="more-products six columns">
 						<h2>More Pretty Things!</h2>
-							<a href="#"><img src="img/products/More-PurpleChain.jpg" alt="Purple Chain" /></a>
-							<a href="#"><img src="img/products/More-WhiteChain.jpg" alt="White Chain" /></a>
-							<a href="#"><img src="img/products/More-SilverChain.jpg" alt="Silver Chain" /></a>
+						
+						<a href="#"><img src="img/products/More-PurpleChain.jpg" alt="Purple Chain" /></a>
+						
+						<a href="#"><img src="img/products/More-WhiteChain.jpg" alt="White Chain" /></a>
+						
+						<a href="#"><img src="img/products/More-SilverChain.jpg" alt="Silver Chain" /></a>
 					</div>
 				</div>
 
@@ -283,6 +305,7 @@
 	<script type="text/javascript" src="./js/html5shiv.js"></script> 
 	<script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="./js/main.js"></script>
+	<script type="text/javascript" src="./js/product-detail.js"></script>
 </body>
 
 </html>

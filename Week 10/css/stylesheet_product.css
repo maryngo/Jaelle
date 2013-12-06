@@ -35,13 +35,15 @@ html, body {
 }
 	
 .product-name {
-	font-size: 2em;
+	font-size: 3em;
+	color: rgb(244, 136, 113);
+	border-bottom: 1px solid #444;
+	padding-bottom: 40px;
 }
 	
 .product-price {
-	font-size: 1.5em;
-	border-bottom: 1px solid #000000;
-	padding-bottom: 20px;
+	/*font-size: 1.5em;*/
+	/*color: #aaa;*/
 }
 	
 .more-products {
@@ -54,9 +56,23 @@ html, body {
 
 .specs{
 	width: 30px;
-	height: 100%;
-	padding-top: 10px;
+	/*height: 100%;*/
 }
+
+.spec-icon {	
+	margin-right: 10px;
+}
+
+.desc {
+	margin-bottom: 20px;
+}
+
+.product-blogpost {
+	font-style: italic;
+	margin-bottom: 40px;
+}
+
+
 
 /* =========================================================
  * Product Images Gallery
@@ -81,13 +97,13 @@ html, body {
 	}
 	
 /*Selected image display*/
-.image-gallery .big-image img:target { display:block; }
+/*.image-gallery .big-image img:target { display:block; }*/
 
 /*on select image display none the default image*/
-.image-gallery .big-image img:target ~ img#default { display:none; }
+/*.image-gallery .big-image img:target ~ img#default { display:none; }*/
 
 /*Show Default Image in first load*/
-.image-gallery .big-image img#default { display:block; }
+/*.image-gallery .big-image img#default { display:block; }*/
 
 
 .image-gallery ul { 
@@ -96,50 +112,39 @@ html, body {
 	
 .image-gallery li {
 	float:left;
-  	/*background-color:rgba(255,255,255,0);*/
 	width: 25%;
 	text-align: center;
 	
 	}
 
-.image-gallery li a {
-	transition: all 0.5s;
+.image-gallery li {
 	opacity: 0.5;
 
 }
   	
-.image-gallery li a:hover {
+.image-gallery li:hover {
+	transition: all 0.5s;
 	opacity: 1;
 	}
 
-.img-link:hover{
-	border: 5px solid #00A99D;
+.selected {
+	opacity: 1;
+	outline: 5px solid #00A99D;
+	outline-offset: -5px;
 }
 
 .img-link {
 	width: 90%;
-	border: 5px solid #aaa;    
+	/*border: 5px solid transparent;*/
 	}
 
-.img-link img:active {
-	display: block;
-	border: 5px solid #00A99D;
-}
-
-#one:target ~ li a[href="#one"],
-#two:target ~ li a[href="#two"],
-#three:target ~ li a[href="#three"],
-#four:target ~ li a[href="#four"],
-#five:target ~ li a[href="#five"] {
-  opacity: 1;
-  border: 5px solid #00A99D;
-}
 
 /*reset CSS*/
 .image-gallery ul,li { 
 	list-style:none;
 	padding:0;
 	}
+
 
 
 /* =========================================================
@@ -164,52 +169,6 @@ html, body {
  	color: #fff;
  }
 
-
-/* Add quantity */
-input[type=text],
-input[type=email],
-input[type=search],
-input[type=tel],
-select,
-textarea {
-	font-family: "Perspective Sans", sans-serif; 
-	width: 100%;
-	margin-bottom: 15px;
-	padding: .6em .6em .5em .6em;
-	display: inline-block;
-	border: 1px solid #ccc;
-	font-size: 1em;
-	box-shadow: inset 0 1px 3px #ddd;
-	border-radius: 4px;
-	-webkit-transition: .3s linear border;
-	-moz-transition: .3s linear border;
-	-ms-transition: .3s linear border;
-	-o-transition: .3s linear border;
-	transition: .3s linear border;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-/* When an input box is in focus, highlight it in teal */
-input[type=text]:focus,
-input[type=email]:focus,
-input[type=search]:focus,
-input[type=tel]:focus,
-select:focus,
-textarea:focus {
-	outline:0;
-	/*outline:thin dotted \9;*/
-	outline: thin dotted #333; /*is this what the previous line was supposed to be?*/
-	border-color:#00A99D;
-}
-
-input[type=file]:focus
-input[type=radio]:focus,
-input[type=checkbox]:focus {
-	outline: thin dotted #333;
-	outline: 1px auto #00A99D;
-}
 
 	
 /* =========================================================

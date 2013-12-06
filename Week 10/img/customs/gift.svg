@@ -4,11 +4,13 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="250px" height="250px" viewBox="0 0 250 250" enable-background="new 0 0 250 250" xml:space="preserve">
 <g>
-	<path fill="#F2F2F2" d="M57.5,75V57.142h42.143l-30-30.003l15-14.994l30,29.996V0h21.43v42.141l29.997-29.996l15.003,14.994
-		l-30.001,30.003H192.5V75H57.5z"/>
-</g>
-<g>
-	<path fill="#F2F2F2" d="M25,90v160h200V90H25z M115,235H40v-55h75V235z M115,160H40v-55h75V160z M210,235h-75v-55h75V235z M210,160
-		h-75v-55h75V160z"/>
+	<g>
+		<path fill="#8A8A8A" d="M57.5,75V57.142h42.143l-30-30.003l15-14.994l30,29.996V0h21.43v42.141l29.997-29.996l15.003,14.994
+			l-30.001,30.003H192.5V75H57.5z"/>
+	</g>
+	<g>
+		<path fill="#8A8A8A" d="M25,90v160h200V90H25z M115,235H40v-55h75V235z M115,160H40v-55h75V160z M210,235h-75v-55h75V235z
+			 M210,160h-75v-55h75V160z"/>
+	</g>
 </g>
 </svg>

@@ -112,7 +112,7 @@
 
     .bracelet-icon {
         width: 30%;
-        position: relative;
+        margin: auto;
     }
     
     
@@ -196,7 +196,6 @@
     }
 
     .bracelet-icon {
-    	position: absolute;
     	top: 1em;
     	left: 35%;
     }
